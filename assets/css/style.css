@@ -709,6 +709,7 @@ section {
 /*--------------------------------------------------------------
 # Research
 --------------------------------------------------------------*/
+
 .research {
   background-size: cover;
   padding: 15px 0;
@@ -724,6 +725,10 @@ section {
   bottom: 0;
   background: rgba(255, 255, 255, 0.75);
   z-index: 9;
+}
+
+.research .section-title p {
+  text-align: justify;
 }
 
 .research-variant {
@@ -752,6 +757,10 @@ section {
 
 .research-variant .topic-pic {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.research .row div {
+  justify-content: center;
 }
 
 /* @media (max-width: 1200px) {
@@ -836,7 +845,7 @@ section {
 
 .services .description {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 24px;
   margin-bottom: 0;
 }
 
@@ -1070,9 +1079,7 @@ section {
 # Research
 --------------------------------------------------------------*/
 
-.research .section-title p {
-  text-align: justify;
-}
+
 
 /*--------------------------------------------------------------
 # Rob
@@ -1456,31 +1463,6 @@ section {
   padding: 6px 10px;
   position: relative;
   border-radius: 4;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #67b0d1;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 4;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #409cc5;
 }
 
 #footer .copyright {
