@@ -315,14 +315,32 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script>
-    window.addEventListener('load', function() {
-      GLightbox({
-        selector: '.glightbox',
-        touchNavigation: true,
-        loop: false,
-        autoplayVideos: false
+    (function() {
+      // Custom lightbox for gallery
+      var modal = document.createElement('div');
+      modal.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:10000;align-items:center;justify-content:center;flex-direction:column;cursor:zoom-out;';
+      modal.innerHTML =
+        '<button style="position:fixed;top:18px;right:24px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;line-height:1;" onclick="event.stopPropagation();gallery_close()">&#x2715;</button>' +
+        '<img id="_gl_img" style="max-width:90vw;max-height:82vh;object-fit:contain;border-radius:4px;box-shadow:0 4px 30px rgba(0,0,0,0.5);" onclick="event.stopPropagation()">' +
+        '<p id="_gl_cap" style="color:#ddd;margin-top:14px;font-size:14px;text-align:center;max-width:80vw;"></p>';
+      document.body.appendChild(modal);
+
+      window.gallery_close = function() { modal.style.display = 'none'; };
+      modal.addEventListener('click', gallery_close);
+      document.addEventListener('keydown', function(e) { if (e.key === 'Escape') gallery_close(); });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a.glightbox').forEach(function(a) {
+          a.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('_gl_img').src = a.getAttribute('href');
+            var raw = a.getAttribute('data-glightbox') || '';
+            document.getElementById('_gl_cap').textContent = raw.replace(/^title:\s*/, '');
+            modal.style.display = 'flex';
+          });
+        });
       });
-    });
+    })();
   </script>
 
 </body>
