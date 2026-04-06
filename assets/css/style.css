@@ -6,6 +6,13 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* Disable AOS scroll animations — elements always visible */
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -85,9 +92,9 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
   padding: 24px 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 #header.header-transparent {
@@ -95,7 +102,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
   padding: 12px;
 }
 
@@ -118,9 +126,17 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  height: 35px;
-  object-fit: contain;
-  /* max-width: 300px; */
+  max-height: 30px;
+  height: auto;
+  width: auto;
+  max-width: none !important;
+}
+
+#mit-logo img {
+  max-height: 38px;
+  height: auto;
+  width: auto;
+  max-width: none !important;
 }
 
 @media (max-width: 768px) {
@@ -133,7 +149,7 @@ h6 {
   }
 
   #header .logo img {
-    height: 30px;
+    height: 25px;
   }
 }
 
@@ -168,11 +184,11 @@ h6 {
   padding: 8px 16px;
   margin-left: 10px;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  color:  #00b1f2;
+  color: #5AB3E6;
   white-space: nowrap;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .navbar a i,
@@ -186,8 +202,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  background: rgba(255, 255, 255, 0.6);
-  color:  #ff9100;
+  color: #F7941D !important;
+  background: transparent;
 }
 
 .navbar .dropdown ul {
@@ -200,8 +216,8 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #ffffff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.0);
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
 
@@ -224,7 +240,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color:  #00bafe;
+  color: #67b0d1;
 }
 
 .navbar .dropdown:hover>ul {
@@ -308,7 +324,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #00b1f2;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -442,21 +458,21 @@ h6 {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 20px;
+  left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
 }
 
 #hero h1 {
-  margin: 0 0 30px 30px;
+  margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   color: #fff;
   text-shadow: -1px 0 2px #2f4d5a;
 }
@@ -467,15 +483,6 @@ h6 {
   padding: 0 20px;
   font-size: 20px;
   text-transform: uppercase;
-  font-weight: 700;
-  text-shadow: -1px 0 2px #2f4d5a;
-}
-
-#hero p {
-  color: #fff;
-  margin: 0 0 30px 30px;
-  padding: 0 20px;
-  font-size: 20px;
   font-weight: 700;
   text-shadow: -1px 0 2px #2f4d5a;
 }
@@ -497,41 +504,6 @@ h6 {
 #hero .btn-get-started:hover {
   padding-top: 8px;
   background: rgba(255, 255, 255, 0.15);
-}
-
-#hero .hero-slideshow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-#hero .slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
-}
-
-#hero .slide.active {
-  opacity: 1;
-}
-
-#hero .slide::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2));
 }
 
 @media (min-width: 1024px) {
@@ -583,15 +555,7 @@ section {
 }
 
 .section-title h2::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 122px;
-  height: 66px;
-  background: url(../img/section-title-bg.png) no-repeat;
-  z-index: -1;
+  display: none;
 }
 
 .section-title p {
@@ -770,7 +734,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.0);
   z-index: 9;
 }
 
@@ -779,7 +743,7 @@ section {
 }
 
 .research-variant {
-  background-color:#409cc5
+  background-color: #fff;
 }
 
 .research .container {
@@ -909,7 +873,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1175,6 +1139,14 @@ section {
 
 .team .member .pic {
   overflow: hidden;
+  height: 220px;
+}
+
+.team .member .pic img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
 }
 
 .team .member .member-info {

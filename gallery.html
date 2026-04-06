@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Publications - Bioelectronics@MIT</title>
+  <title>Gallery - MIT Bioelectronics Group</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -23,62 +23,308 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Squadfree
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .gallery-section { padding: 40px 0; }
+    .gallery-section:nth-child(even) { background: #f4f9fc; }
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      display: block;
+    }
+    .gallery-item.cover img {
+      height: 280px;
+      object-fit: contain;
+      background: #fff;
+      padding: 8px;
+    }
+    .gallery-item:hover img { transform: scale(1.04); }
+    .gallery-caption {
+      padding: 8px 10px;
+      font-size: 0.82rem;
+      color: #555;
+      background: #fff;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
 
-
-    <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between position-relative">
 
       <div class="logo">
-        <!-- <h1 class="text-light"><a href="index.html"><span>The Macfarlane Lab</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="MIT Bioelectronics Group" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <!-- <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li> -->
-          <li><a class="nav-link scrollto" href="news.html">News</a></li>
-          <!-- <li class="dropdown"><a href="research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+          <li class="dropdown"><a href="research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="research.html#overview">Overview</a></li>
-              <li><a href="research.html#NCT">Magnetic Nanomaterials</a></li>
-              <li><a href="research.html#PGNP">Multifunctional Fibers</a></li>
-              <li><a href="research.html#PAE">Brain-Body Axis</a></li>
+              <li><a href="research.html#magnetic">Magnetic Nanomaterials</a></li>
+              <li><a href="research.html#fibers">Neural Interfaces</a></li>
+              <li><a href="research.html#gutbrain">Gut-Brain Axis</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="team.html"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="polina.html">Prof. Anikeeva</a></li>
-              <li><a href="team.html">Group Members</a></li>
-            </ul>
-          </li> -->
-          <li><a class="nav-link scrollto" href="research.html">Research</a></li>
-          <li><a class="nav-link scrollto" href="team.html">Team</a></li>          
-          <li><a class="nav-link scrollto active" href="publications.html">Publications</a></li>
-          <li><a class="nav-link scrollto" href="positions.html">Positions</a></li>
+          <li><a class="nav-link scrollto" href="team.html">Team</a></li>
+          <li><a class="nav-link scrollto" href="news.html">News</a></li>
+          <li><a class="nav-link scrollto" href="publications.html">Publications</a></li>
           <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <!-- <div class="logo" id="mit-logo">
-        <a target="_blank " href="https://www.mit.edu/"><img src="assets/img/mit-lockup-std-three-line-rgb-white.svg" alt="" class="img-fluid"></a>
-      </div> -->
+      <div class="logo" id="mit-logo">
+        <a target="_blank" href="https://www.mit.edu/"><img src="assets/img/mit-logo-red.png" alt="" class="img-fluid"></a>
+      </div>
 
     </div>
   </header><!-- End Header -->
+
+  <main id="main">
+    <section class="team">
+      <div class="container">
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Gallery</h2>
+        </div>
+
+        <!-- ── Journal Covers ─────────────────────────────────── -->
+        <div class="grouping" data-aos="fade-in"><h4>Journal Covers</h4></div>
+        <div class="content gallery-section" data-aos="fade-up">
+          <div class="row">
+
+            <div class="col-lg-2 col-md-3 col-6">
+              <a class="glightbox gallery-item cover" href="assets/img/gallery/covers/canales-2015-multifunctional.png" data-gallery="covers" data-glightbox="title: Multifunctional Fibers — Nature Biotechnology, 2015">
+                <img src="assets/img/gallery/covers/canales-2015-multifunctional.png" alt="Nature Biotechnology 2015 Cover">
+                <div class="gallery-caption"><i>Nature Biotechnology</i>, 2015</div>
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6">
+              <a class="glightbox gallery-item cover" href="assets/img/gallery/covers/lu-2014-polymer.jpg" data-gallery="covers" data-glightbox="title: Polymer Fiber Probes — Advanced Functional Materials, 2014">
+                <img src="assets/img/gallery/covers/lu-2014-polymer.jpg" alt="Advanced Functional Materials 2014 Cover">
+                <div class="gallery-caption"><i>Adv. Functional Materials</i>, 2014</div>
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6">
+              <a class="glightbox gallery-item cover" href="assets/img/gallery/covers/loynachan-2015-targeted.jpg" data-gallery="covers" data-glightbox="title: Remote Magnetothermal Disruption — Advanced Healthcare Materials, 2015">
+                <img src="assets/img/gallery/covers/loynachan-2015-targeted.jpg" alt="Advanced Healthcare Materials 2015 Cover">
+                <div class="gallery-caption"><i>Adv. Healthcare Materials</i>, 2015</div>
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6">
+              <a class="glightbox gallery-item cover" href="assets/img/gallery/covers/kanik-2019-strain.jpg" data-gallery="covers" data-glightbox="title: Strain-Programmable Artificial Muscle — Science, 2019">
+                <img src="assets/img/gallery/covers/kanik-2019-strain.jpg" alt="Science 2019 Cover">
+                <div class="gallery-caption"><i>Science</i>, 2019</div>
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6">
+              <a class="glightbox gallery-item cover" href="assets/img/gallery/covers/gregurec-2019-tuning.jpg" data-gallery="covers" data-glightbox="title: Magnetic Nanodiscs Enable Neural Stimulation — ACS Nano, 2020">
+                <img src="assets/img/gallery/covers/gregurec-2019-tuning.jpg" alt="ACS Nano 2020 Cover">
+                <div class="gallery-caption"><i>ACS Nano</i>, 2020</div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ── Group Photos ───────────────────────────────────── -->
+        <div class="grouping" data-aos="fade-in"><h4>Group Photos</h4></div>
+        <div class="content gallery-section" data-aos="fade-up">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <a class="glightbox gallery-item" href="assets/img/team/Group Photo 3_24.jpg" data-gallery="group" data-glightbox="title: Bioelectronics Group, 2024">
+                <img src="assets/img/team/Group Photo 3_24.jpg" alt="Group Photo 2024">
+                <div class="gallery-caption">2024</div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <a class="glightbox gallery-item" href="assets/img/gallery/group-photos/group photo 2024.jpg" data-gallery="group" data-glightbox="title: Bioelectronics Group, 2024">
+                <img src="assets/img/gallery/group-photos/group photo 2024.jpg" alt="Group Photo 2024">
+                <div class="gallery-caption">2024</div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <a class="glightbox gallery-item" href="assets/img/gallery/group-photos/Group photo 2022.jpg" data-gallery="group" data-glightbox="title: Bioelectronics Group, 2022">
+                <img src="assets/img/gallery/group-photos/Group photo 2022.jpg" alt="Group Photo 2022">
+                <div class="gallery-caption">2022</div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <a class="glightbox gallery-item" href="assets/img/gallery/group-photos/reunion-2022.jpg" data-gallery="group" data-glightbox="title: Reunion, 2022">
+                <img src="assets/img/gallery/group-photos/reunion-2022.jpg" alt="Reunion 2022">
+                <div class="gallery-caption">Reunion, 2022</div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <a class="glightbox gallery-item" href="assets/img/gallery/group-photos/group-photo-2018.jpg" data-gallery="group" data-glightbox="title: Bioelectronics Group, 2018">
+                <img src="assets/img/gallery/group-photos/group-photo-2018.jpg" alt="Group Photo 2018">
+                <div class="gallery-caption">2018</div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <a class="glightbox gallery-item" href="assets/img/gallery/group-photos/group-photo-2017.jpg" data-gallery="group" data-glightbox="title: Bioelectronics Group, 2017">
+                <img src="assets/img/gallery/group-photos/group-photo-2017.jpg" alt="Group Photo 2017">
+                <div class="gallery-caption">2017</div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ── Lab Retreats ───────────────────────────────────── -->
+        <div class="grouping" data-aos="fade-in"><h4>Lab Retreats</h4></div>
+        <div class="content gallery-section" data-aos="fade-up">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2023.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2023">
+                <img src="assets/img/gallery/retreats/retreat-2023.jpg" alt="Retreat 2023">
+                <div class="gallery-caption">2023</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2021.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2021">
+                <img src="assets/img/gallery/retreats/retreat-2021.jpg" alt="Retreat 2021">
+                <div class="gallery-caption">2021</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2019.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2019">
+                <img src="assets/img/gallery/retreats/retreat-2019.jpg" alt="Retreat 2019">
+                <div class="gallery-caption">2019</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2018.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2018">
+                <img src="assets/img/gallery/retreats/retreat-2018.jpg" alt="Retreat 2018">
+                <div class="gallery-caption">2018</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2017.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2017">
+                <img src="assets/img/gallery/retreats/retreat-2017.jpg" alt="Retreat 2017">
+                <div class="gallery-caption">2017</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2016.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2016">
+                <img src="assets/img/gallery/retreats/retreat-2016.jpg" alt="Retreat 2016">
+                <div class="gallery-caption">2016</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2015.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2015">
+                <img src="assets/img/gallery/retreats/retreat-2015.jpg" alt="Retreat 2015">
+                <div class="gallery-caption">2015</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2014.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2014">
+                <img src="assets/img/gallery/retreats/retreat-2014.jpg" alt="Retreat 2014">
+                <div class="gallery-caption">2014</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2013.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2013">
+                <img src="assets/img/gallery/retreats/retreat-2013.jpg" alt="Retreat 2013">
+                <div class="gallery-caption">2013</div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a class="glightbox gallery-item" href="assets/img/gallery/retreats/retreat-2012.jpg" data-gallery="retreats" data-glightbox="title: Lab Retreat 2012">
+                <img src="assets/img/gallery/retreats/retreat-2012.jpg" alt="Retreat 2012">
+                <div class="gallery-caption">2012</div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-4 col-md-7">
+            <div class="footer-info">
+              <h3>MIT Bioelectronics Group</h3>
+              <div class="social-links mt-3">
+                <a target="_blank" href="https://www.mit.edu/"><img src="assets/img/mit-logo-std-rgb-black.svg"></a>
+                <a target="_blank" href="https://dmse.mit.edu/"><img src="assets/img/dmse-logo.png"></a>
+              </div>
+              <h6 class="accessibility"><a target="_blank" href="https://accessibility.mit.edu/">Accessibility</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright 2025 <strong><span>MIT Bioelectronics Group - Massachusetts Institute of Technology</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: false,
+        autoplayVideos: false
+      });
+    });
+  </script>
+
+</body>
+
+</html>

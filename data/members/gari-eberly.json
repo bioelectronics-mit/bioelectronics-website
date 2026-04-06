@@ -1,0 +1,22 @@
+{
+  "name": "Gari Eberly",
+  "photo": "data/members/images/gari-eberly.jpg",
+  "role": "Graduate Student",
+  "department": "Harvard-MIT Health Sciences and Technology",
+  "email": "geberly@mit.edu",
+  "interests": [
+    "Neurodevelopment",
+    "Enteric Nervous System",
+    "Neural Probes"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc.",
+      "field": "Biomedical Engineering & English",
+      "institution": "Bucknell University",
+      "year": 2021
+    }
+  ],
+  "bio": "Gari completed her BS in Biomedical Engineering and BA in English from Bucknell University in 2021. She plans to develop neural probes to study topics such as the role of intestinal sensory neurons in neurodevelopmental conditions like Autism Spectrum Disorder.",
+  "linkedin": "https://www.linkedin.com/in/gari-eberly-06ba52155/"
+}

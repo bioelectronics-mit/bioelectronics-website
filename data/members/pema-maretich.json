@@ -1,0 +1,21 @@
+{
+  "name": "Pema Maretich",
+  "photo": "data/members/images/pema-maretich.jpg",
+  "role": "Graduate Student",
+  "department": "MIT Biology",
+  "email": "pema@mit.edu",
+  "interests": [
+    "Addiction",
+    "HPA-Axis",
+    "Neuroendocrine Modulation"
+  ],
+  "education": [
+    {
+      "degree": "B.A.",
+      "field": "Molecular and Cell Biology & Spanish",
+      "institution": "UC Berkeley",
+      "year": 2016
+    }
+  ],
+  "bio": "After graduating from UC Berkeley with degrees in MCB and Spanish, Pema worked in the Kajimura Lab at UCSF studying brown fat metabolism. She joined the MIT Biology Program in 2021 and the Bioelectronics Group in 2022, examining the effects of opioids on the gut-brain axis."
+}

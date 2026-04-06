@@ -1,0 +1,401 @@
+[
+  {
+    "type": "Postdoctoral",
+    "name": "Claudia Cea",
+    "currentPosition": "Assistant Professor, Yale University",
+    "note": "2023–2025",
+    "yearLeft": 2025
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Noah Kent",
+    "currentPosition": null,
+    "note": "2021–2025",
+    "yearLeft": 2025
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Marie Manthey",
+    "currentPosition": null,
+    "note": "2020–2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Caroline Apra",
+    "currentPosition": "Assistant Professor of Neurosurgery, Université Paris Est Créteil",
+    "note": "2021–2022",
+    "yearLeft": 2022
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Dekel Rosenfeld",
+    "currentPosition": "Zuckerman Faculty Scholar, Tel Aviv University",
+    "note": "2012–2022",
+    "yearLeft": 2022
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Georgios Varnavides",
+    "currentPosition": "Postdoctoral Fellow, UC Berkeley",
+    "note": null,
+    "yearLeft": null
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Youngbin Lee",
+    "currentPosition": "Postdoctoral Fellow, MIT (w/ Yoel Fink)",
+    "note": null,
+    "yearLeft": null
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Siyuan Rao",
+    "currentPosition": "Assistant Professor, UMass Amherst",
+    "note": "2016–2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Dena Shahriari",
+    "currentPosition": "Assistant Professor, University of British Columbia / ICORD",
+    "note": "2016–2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Danijela Gregurec",
+    "currentPosition": "Assistant Professor, Friedrich Alexander University",
+    "note": "2016–2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Mehmet Kanik",
+    "currentPosition": "Senior Scientist, Impossible Foods",
+    "note": "2015–2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Andres Canales",
+    "currentPosition": "Researcher, Advanced Silicon Group",
+    "note": "Postdoc 2017–2019",
+    "yearLeft": 2019
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Seongjun Park",
+    "currentPosition": "Assistant Professor, KAIST",
+    "note": "Postdoc 2018–2019",
+    "yearLeft": 2019
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Pohan Chiang",
+    "currentPosition": "Assistant Professor, National Chiao Tung University",
+    "note": "2016–2019",
+    "yearLeft": 2019
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "James A. Frank",
+    "currentPosition": "Assistant Professor, Vollum Institute, OHSU",
+    "note": "2018",
+    "yearLeft": 2018
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Elizabeth Canovic",
+    "currentPosition": "Research Engineer, Spiden",
+    "note": "2015–2017",
+    "yearLeft": 2017
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Ulrich P. Froriep",
+    "currentPosition": "Project Director, Fraunhofer Institute",
+    "note": "2012–2015",
+    "yearLeft": 2015
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Ryan A. Koppes",
+    "currentPosition": "Assistant Professor, Northeastern University",
+    "note": "2013–2015",
+    "yearLeft": 2015
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Gabriela Romero",
+    "currentPosition": "Assistant Professor, UT San Antonio",
+    "note": "2013–2015",
+    "yearLeft": 2015
+  },
+  {
+    "type": "Postdoctoral",
+    "name": "Xiaoting Jia",
+    "currentPosition": "Assistant Professor, Virginia Tech",
+    "note": "2011–2015",
+    "yearLeft": 2015
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Ye Ji Kim",
+    "currentPosition": "Postdoctoral Researcher, Gradinaru Lab, Caltech",
+    "note": "Ph.D. 2025",
+    "yearLeft": 2025
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Florian Koehler",
+    "currentPosition": null,
+    "note": "Ph.D. MIT EECS, 2024",
+    "yearLeft": 2024
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Atharva Sahasrabudhe",
+    "currentPosition": "Postdoctoral Researcher, MIT (Kim & Cheema groups)",
+    "note": "Ph.D. 2024; MRS Silver Graduate Student Award 2023",
+    "yearLeft": 2024
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Elian Malkin",
+    "currentPosition": null,
+    "note": "M.S. Brain and Cognitive Sciences, 2022–2024",
+    "yearLeft": 2024
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Indie Garwood",
+    "currentPosition": null,
+    "note": "Ph.D. 2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Anthony Tabet",
+    "currentPosition": null,
+    "note": "Ph.D. 2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Marc-Joseph Antonini",
+    "currentPosition": null,
+    "note": "Ph.D. MIT",
+    "yearLeft": null
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Hannah Field",
+    "currentPosition": "Graduate Student, Stanford University",
+    "note": null,
+    "yearLeft": null
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Jimin Park",
+    "currentPosition": "Assistant Professor, KAIST",
+    "note": "Ph.D. 2021",
+    "yearLeft": 2021
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Junsang Moon",
+    "currentPosition": "Process Engineer, Applied Materials",
+    "note": "Ph.D. 2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Sirma Orguc",
+    "currentPosition": "Postdoc, MIT BCS (w/ Emery Brown)",
+    "note": "Ph.D. 2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Alexander W. Senko",
+    "currentPosition": "Data Scientist, Livongo",
+    "note": "Ph.D. 2019",
+    "yearLeft": 2019
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Seongjun Park",
+    "currentPosition": "Assistant Professor, KAIST",
+    "note": "Ph.D. 2018",
+    "yearLeft": 2018
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Michael G. Christiansen",
+    "currentPosition": "Postdoc, ETH Zurich (w/ Simone Schuerle)",
+    "note": "Ph.D. 2017",
+    "yearLeft": 2017
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Chi Lu",
+    "currentPosition": "Engineer, Applied Materials",
+    "note": "Ph.D. 2017",
+    "yearLeft": 2017
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Andres Canales",
+    "currentPosition": "Researcher, Advanced Silicon Group",
+    "note": "Ph.D. 2017",
+    "yearLeft": 2017
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Ritchie Chen",
+    "currentPosition": "Postdoc, Stanford (w/ Karl Deisseroth)",
+    "note": "Ph.D. 2016",
+    "yearLeft": 2016
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Nathan S. Lachenmyer",
+    "currentPosition": null,
+    "note": "M.Eng. 2012",
+    "yearLeft": 2012
+  },
+  {
+    "type": "Other",
+    "name": "Emmanuel Vargas",
+    "currentPosition": null,
+    "note": "Research Support Associate, 2022–2025",
+    "yearLeft": 2025
+  },
+  {
+    "type": "Other",
+    "name": "Katherine Lei",
+    "currentPosition": "Graduate Student, Stanford University",
+    "note": "Undergraduate Researcher, 2019–2024",
+    "yearLeft": 2024
+  },
+  {
+    "type": "Other",
+    "name": "Lee Maresco",
+    "currentPosition": null,
+    "note": "Research Support Associate, 2023–2024",
+    "yearLeft": 2024
+  },
+  {
+    "type": "Other",
+    "name": "Shota Michida",
+    "currentPosition": null,
+    "note": "Exchange Student, University of Tokyo, Fall 2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Other",
+    "name": "Peyton Worthington",
+    "currentPosition": null,
+    "note": "MIT Mechanical Engineering, 2022–2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Other",
+    "name": "Veronica Will",
+    "currentPosition": null,
+    "note": "Biological Engineering, Class of 2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Other",
+    "name": "Cindy H. Shi",
+    "currentPosition": "Ph.D. student, Stanford MSE",
+    "note": "Undergraduate 2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Other",
+    "name": "Yuanyuan Guo",
+    "currentPosition": "Assistant Professor, Tohoku University",
+    "note": "Visiting Researcher 2020",
+    "yearLeft": 2020
+  },
+  {
+    "type": "Other",
+    "name": "Pooja Reddy",
+    "currentPosition": "Ph.D. student, Stanford MSE",
+    "note": "Undergraduate 2018–2019",
+    "yearLeft": 2019
+  },
+  {
+    "type": "Other",
+    "name": "Jonathan Aritzi",
+    "currentPosition": "Ph.D. student, Harvard-MIT HST",
+    "note": "Master's Student, 2018",
+    "yearLeft": 2018
+  },
+  {
+    "type": "Other",
+    "name": "Francisco Garcia",
+    "currentPosition": "Ph.D. student, MIT BCS",
+    "note": "Undergraduate 2017",
+    "yearLeft": 2017
+  },
+  {
+    "type": "Other",
+    "name": "Ligia Stocche Barbosa",
+    "currentPosition": null,
+    "note": "Undergraduate 2016",
+    "yearLeft": 2016
+  },
+  {
+    "type": "Other",
+    "name": "Christina Tringides",
+    "currentPosition": "Ph.D. student, Harvard-MIT HST",
+    "note": "Undergraduate 2015",
+    "yearLeft": 2015
+  },
+  {
+    "type": "Other",
+    "name": "Jennifer Selvidge",
+    "currentPosition": "Ph.D. student, UCSB MSE",
+    "note": "Undergraduate 2015",
+    "yearLeft": 2015
+  },
+  {
+    "type": "Other",
+    "name": "Colleen N. Loynachan",
+    "currentPosition": "Postdoc, EPFL",
+    "note": "Undergraduate 2014",
+    "yearLeft": 2014
+  },
+  {
+    "type": "Other",
+    "name": "Kenny Logan",
+    "currentPosition": null,
+    "note": null,
+    "yearLeft": null
+  },
+  {
+    "type": "Other",
+    "name": "Viktor Baltin",
+    "currentPosition": null,
+    "note": null,
+    "yearLeft": null
+  },
+  {
+    "type": "Other",
+    "name": "Sabrina Liu",
+    "currentPosition": null,
+    "note": null,
+    "yearLeft": null
+  },
+  {
+    "type": "Other",
+    "name": "Yixiang Huang",
+    "currentPosition": null,
+    "note": null,
+    "yearLeft": null
+  }
+]

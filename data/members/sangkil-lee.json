@@ -1,0 +1,27 @@
+{
+  "name": "Sangkil Lee",
+  "photo": "data/members/images/sangkil-lee.png",
+  "role": "Graduate Student",
+  "department": "Materials Science and Engineering",
+  "email": "",
+  "interests": [
+    "Magnetic Nanoparticles",
+    "Multiferroic Materials",
+    "Neural Modulation"
+  ],
+  "education": [
+    {
+      "degree": "M.S.",
+      "field": "Materials Science and Engineering",
+      "institution": "Yonsei University",
+      "year": 2025
+    },
+    {
+      "degree": "B.S.",
+      "field": "Materials Science and Engineering",
+      "institution": "Yonsei University",
+      "year": 2023
+    }
+  ],
+  "bio": "Sangkil completed his B.S. and M.S. in Materials Science and Engineering from Yonsei University and began his PhD in MIT DMSE in 2025. His current research focuses on designing magnetic nanoparticles and exploring multiferroic materials for neuromodulation."
+}

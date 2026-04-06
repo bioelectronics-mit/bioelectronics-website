@@ -134,7 +134,7 @@
    * Scrool with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
-    if (select(this.hash)) {
+    if (this.hash && select(this.hash)) {
       e.preventDefault()
 
       let navbar = select('#navbar')
@@ -243,35 +243,16 @@
   });
 
   /**
-   * Animation on scroll
+   * Animation on scroll (disabled)
    */
+  // AOS animations disabled per user preference
   window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
-      once: true,
-      mirror: false
-    });
+    // AOS.init disabled
   });
 
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
-
-  // Hero slideshow
-  let currentSlide = 0;
-  const slides = document.querySelectorAll('.slide');
-  const totalSlides = slides.length;
-
-  function showNextSlide() {
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide + 1) % totalSlides;
-    slides[currentSlide].classList.add('active');
-  }
-
-  if (slides.length > 1) {
-    setInterval(showNextSlide, 5000); // 5秒ごとに変更
-  }
 
 })()

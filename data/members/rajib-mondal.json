@@ -1,0 +1,29 @@
+{
+  "name": "Rajib Mondal",
+  "photo": "data/members/images/rajib-mondal.jpg",
+  "role": "Graduate Student",
+  "department": "Harvard-MIT Health Sciences and Technology",
+  "email": "rmondal@mit.edu",
+  "interests": [
+    "Gut-Brain Axis",
+    "Parkinson's Disease",
+    "Neuro-immunology"
+  ],
+  "education": [
+    {
+      "degree": "M.Sc.",
+      "field": "Electrical Engineering & Information Technology",
+      "institution": "RWTH Aachen University",
+      "year": 2019
+    },
+    {
+      "degree": "B.S.",
+      "field": "Electrical Engineering & Information Technology",
+      "institution": "RWTH Aachen University",
+      "year": 2014
+    }
+  ],
+  "bio": "Rajib is an electrical engineer and medical student passionate about conducting research in neurodegenerative diseases. He joined the Harvard-MIT Health Sciences and Technology MEMP program in 2020 and the Bioelectronics Group to study the gut-brain axis in Parkinson's disease.",
+  "linkedin": "https://www.linkedin.com/in/rajib-mondal-51520488/",
+  "twitter": "https://twitter.com/rajibmndl"
+}

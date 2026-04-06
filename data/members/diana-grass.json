@@ -1,0 +1,24 @@
+{
+  "name": "Diana Grass",
+  "photo": "data/members/images/diana-grass.jpg",
+  "role": "Graduate Student",
+  "department": "Harvard-MIT Health Sciences and Technology",
+  "email": "dgrass@mit.edu",
+  "interests": [
+    "Neural Modulation",
+    "Magnetic Nanoparticles",
+    "Neuro-imaging",
+    "Neuro-immunology"
+  ],
+  "education": [
+    {
+      "degree": "B.A.",
+      "field": "Neuroscience and Behavior",
+      "institution": "Rutgers University",
+      "year": 2022
+    }
+  ],
+  "bio": "Diana completed her B.A. in Neuroscience and Behavior at Rutgers University in 2022 and joined the Harvard-MIT Health Sciences and Technology Medical Engineering and Medical Physics PhD program. She is interested in the intersection of neural modulation and immunology.",
+  "linkedin": "https://www.linkedin.com/in/dianagrass/",
+  "twitter": "https://twitter.com/dianam_grass"
+}

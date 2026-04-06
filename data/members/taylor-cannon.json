@@ -1,0 +1,28 @@
+{
+  "name": "Taylor Cannon",
+  "photo": "data/members/images/taylor-cannon.jpg",
+  "role": "Postdoctoral Associate",
+  "email": "cannont@mit.edu",
+  "interests": [
+    "Multifunctional Neural Probes",
+    "Biophotonics",
+    "Optical Imaging"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Medical Engineering & Medical Physics",
+      "institution": "Harvard-MIT HST",
+      "year": 2023
+    },
+    {
+      "degree": "B.Eng.",
+      "field": "Biomedical Engineering",
+      "institution": "Vanderbilt University",
+      "year": 2016
+    }
+  ],
+  "bio": "Taylor completed her undergraduate degree in Biomedical Engineering at Vanderbilt University in 2016. Her PhD thesis developed signal processing strategies based on light scattering theory. In the Bioelectronics Group, Taylor is working on the development of minimally-invasive implantable devices for imaging neural activity.",
+  "linkedin": "https://www.linkedin.com/in/taylor-cannon-704a68155/",
+  "scholar": "https://scholar.google.com/citations?user=DbB-p7YAAAAJ&hl=en"
+}

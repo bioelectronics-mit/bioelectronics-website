@@ -1,0 +1,28 @@
+{
+  "name": "Isabella Fallon",
+  "photo": "data/members/images/isabella-fallon.png",
+  "role": "Postdoctoral Associate",
+  "email": "ipf@mit.edu",
+  "interests": [
+    "Neurodegenerative Diseases",
+    "Gut-Brain Axis",
+    "Stretchable Electronics"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Neurobiology",
+      "institution": "Duke University School of Medicine",
+      "year": 2024
+    },
+    {
+      "degree": "B.A.",
+      "field": "Psychology and Neuroscience",
+      "institution": "University of Colorado Boulder",
+      "year": 2017
+    }
+  ],
+  "bio": "Isabella received her B.A. in Psychology and Neuroscience from the University of Colorado Boulder in 2017 and earned her Ph.D. in Neurobiology from Duke University in 2024. She is excited to bring her expertise in neurobiology to the Bioelectronics Group to study gut-brain circuits in neurological disease.",
+  "linkedin": "https://www.linkedin.com/in/isabella-fallon-/",
+  "scholar": "https://scholar.google.com/citations?hl=en"
+}

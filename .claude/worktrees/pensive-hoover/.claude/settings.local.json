@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/Keisuke/github/Bioelectronics-website worktree list)",
+      "Bash(ls /Users/Keisuke/github/Bioelectronics-website/data/members/*.json)",
+      "Bash(xargs -I{} basename {} .json)",
+      "Bash(python3:*)"
+    ]
+  }
+}

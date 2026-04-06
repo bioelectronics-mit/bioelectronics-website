@@ -1,0 +1,29 @@
+{
+  "name": "Sharmelee Selvaraji",
+  "photo": "data/members/images/sharmelee-selvaraji.jpg",
+  "role": "Postdoctoral Associate",
+  "email": "sharms09@mit.edu",
+  "interests": [
+    "Neurodegenerative Diseases",
+    "Epigenetics",
+    "Gut-Brain Axis"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Neuroscience",
+      "institution": "National University of Singapore",
+      "year": 2022
+    },
+    {
+      "degree": "B.Sc.",
+      "field": "Biomedical Science",
+      "institution": "National University of Singapore",
+      "year": 2018
+    }
+  ],
+  "bio": "Sharmelee (Sharm) completed both her undergraduate studies (2018) and PhD (2022) at the National University of Singapore. In the Bioelectronics Group, she is exploring the gut-brain axis of Parkinson's disease and investigating the mechanistic underpinnings of the disease.",
+  "linkedin": "https://www.linkedin.com/in/sharmelee-selvaraji-118972b9",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=7P85yr8AAAAJ",
+  "twitter": "https://twitter.com/SharmeleeS"
+}

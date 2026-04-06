@@ -1,0 +1,26 @@
+{
+  "name": "Jacob Beckham",
+  "photo": "data/members/images/jacob-beckham.jpg",
+  "role": "Postdoctoral Fellow",
+  "email": "beckham@mit.edu",
+  "interests": [
+    "Magnetic Materials",
+    "Intracellular Signaling",
+    "Gut-Brain Axis"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Chemistry",
+      "institution": "Rice University",
+      "year": 2023
+    },
+    {
+      "degree": "B.S.",
+      "field": "Chemistry",
+      "institution": "University of Georgia",
+      "year": 2018
+    }
+  ],
+  "bio": "Jacob completed his undergraduate degree in Chemistry at the University of Georgia in 2018. His PhD thesis comprised several studies on carbon nanomaterials. Jacob is excited to bring his expertise in nanomaterial synthesis to the Bioelectronics Group, developing new magnetic technologies for controlling biological function."
+}

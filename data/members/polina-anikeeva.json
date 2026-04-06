@@ -1,0 +1,33 @@
+{
+  "name": "Polina Anikeeva",
+  "photo": "data/members/images/polina-anikeeva.jpg",
+  "roles": [
+    "Matoula S. Salapatas Professor and Head, Department of Materials Science and Engineering",
+    "Professor, Brain and Cognitive Sciences",
+    "Director, K. Lisa Yang Brain-Body Center",
+    "Associate Investigator, McGovern Institute for Brain Research",
+    "Associate Director, Research Laboratory of Electronics"
+  ],
+  "email": "anikeeva@mit.edu",
+  "scholar": "https://scholar.google.com/citations?user=CGOog64AAAAJ&hl=en",
+  "interests": [
+    "Biomaterials",
+    "Photonic Materials",
+    "Magnetic Materials"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "MIT",
+      "year": 2009
+    },
+    {
+      "degree": "B.S.",
+      "field": "Biophysics",
+      "institution": "St. Petersburg State Polytechnic University",
+      "year": 2003
+    }
+  ],
+  "bio": "Polina was born in Leningrad, USSR but grew up in St. Petersburg, Russia. She completed her PhD in Materials Science at MIT in 2009 under the supervision of Vladimir Bulović. After a brief postdoctoral stint at Stanford with Karl Deisseroth, Polina returned to MIT in 2011 to start the Bioelectronics Group. The remarkable efforts of the group members led to her tenure in 2017. She is broadly interested in the interface of materials science, electronics, and neurobiology."
+}

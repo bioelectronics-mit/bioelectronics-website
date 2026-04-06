@@ -1,0 +1,15 @@
+{
+  "name": "Rebecca Leomi",
+  "photo": "data/members/images/rebecca-leomi.jpg",
+  "role": "Laboratory Operations Manager",
+  "email": "leomi@mit.edu",
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Biochemistry",
+      "institution": "University of Vermont",
+      "year": 2014
+    }
+  ],
+  "bio": "After graduating with a BS in Biochemistry from the University of Vermont in 2014, Becca began her career in lab support as a technician in the Biology department at MIT. She has since expanded her expertise into laboratory operations and management, overseeing the day-to-day running of the Bioelectronics Lab."
+}

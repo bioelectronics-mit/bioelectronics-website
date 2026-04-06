@@ -1,0 +1,34 @@
+{
+  "id": "fibers",
+  "title": "Multifunctional Interfaces with the Nervous System",
+  "image": "assets/img/research/PGNP Temp.jpeg",
+  "icon": "bx bx-chip",
+  "summary": "Flexible fiber-based probes for simultaneous optical, electrical, and chemical interrogation of neural circuits",
+  "body": [
+    "We design miniature, soft, flexible multifunctional devices for bidirectional electrical, optical, and chemical communication with the nervous system. By combining scalable fiber drawing with additive and subtractive manufacturing and traditional lithographic techniques, we seamlessly integrate polymers, metals, composites, and solid-state microelectronics into multifunctional probes with microscale features.",
+    "Fiber-based probes developed in the group have enabled optogenetics, electrophysiology, and drug and gene delivery in the brain and spinal cord of behaving rodents, as well as multifunctional interrogation of neuronal signaling in non-human primates performing complex tasks. We have also created wireless probes for optical neuromodulation and physiological recordings across the gut and brain for long-term studies of gut-brain circuits. Current work seeks to expand the functional features of these devices for bioelectronic therapies targeting diverse brain-body circuits."
+  ],
+  "publications": [
+    {
+      "authors": "A. Canales, X. Jia, U. P. Froriep, et al.",
+      "title": "Multifunctional fibers for simultaneous optical, electrical and chemical interrogation of neural circuits in vivo",
+      "journal": "Nature Biotechnology",
+      "year": 2015,
+      "doi": "10.1038/nbt.3093"
+    },
+    {
+      "authors": "S. Park, Y. Guo, X. Jia, et al.",
+      "title": "One-step optogenetics with multifunctional flexible polymer fibers",
+      "journal": "Nature Neuroscience",
+      "year": 2017,
+      "doi": "10.1038/nn.4510"
+    },
+    {
+      "authors": "I. Garwood, A. J. Major, M.-J. Antonini, et al.",
+      "title": "Multifunctional fibers enable modulation of cortical and deep brain activity during cognitive behavior in macaques",
+      "journal": "Science Advances",
+      "year": 2023,
+      "doi": "10.1126/sciadv.adh0974"
+    }
+  ]
+}

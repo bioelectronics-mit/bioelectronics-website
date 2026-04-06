@@ -1,0 +1,27 @@
+{
+  "name": "Jiying Li",
+  "photo": "data/members/images/jiying-li.jpg",
+  "role": "Graduate Student",
+  "department": "Materials Science and Engineering",
+  "email": "jiying25@mit.edu",
+  "interests": [
+    "Stretchable Bioelectronics",
+    "Multimodal Sensing",
+    "Uterus Interface"
+  ],
+  "education": [
+    {
+      "degree": "M.S.",
+      "field": "Chemical Engineering",
+      "institution": "Northwestern University",
+      "year": 2025
+    },
+    {
+      "degree": "B.S.",
+      "field": "Chemical Engineering",
+      "institution": "East China University of Science and Technology",
+      "year": 2023
+    }
+  ],
+  "bio": "Jiying completed her B.E. in Chemical Engineering at East China University of Science and Technology and M.S. at Northwestern University. She joined the Bioelectronics Group as a PhD student in MIT DMSE. Her current research focuses on developing soft, stretchable multimodal platforms for interfacing with physiological systems."
+}
