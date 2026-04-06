@@ -34,7 +34,7 @@ function topicSectionHTML(topic, isVariant) {
             <div class="content">
               <h3>${topic.title}</h3>
               <div class="pic topic-pic">
-                <img src="${topic.image}" class="img-fluid" alt="">
+                <img src="${topic.image}" class="img-fluid" alt="" onerror="this.parentElement.style.display='none'">
               </div>
             </div>
           </div>
@@ -55,11 +55,15 @@ function topicSectionHTML(topic, isVariant) {
 }
 
 function overviewCardHTML(topic, delay) {
+  const imgSrc = topic.overview_image || topic.image || '';
+  const imgHTML = imgSrc
+    ? `<a href="#${topic.id}"><img src="${imgSrc}" class="img-fluid mb-3" alt="${topic.title}" style="width:100%;height:160px;object-fit:cover;border-radius:4px;"></a>`
+    : '';
   return `
     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-      <div class="icon-box"${delay ? `` : ''}>
-        <div class="icon"><i class="${topic.icon || 'bx bx-brain'}"></i></div>
-        <h4 class="title"><a href="#${topic.id}">${topic.id === 'magnetic' ? 'Magnetic Nanomaterials' : topic.id === 'fibers' ? 'Multifunctional Neural Interfaces' : 'Gut-Brain Axis'}</a></h4>
+      <div class="icon-box">
+        ${imgHTML}
+        <h4 class="title"><a href="#${topic.id}">${topic.title}</a></h4>
         <p class="description">${topic.summary || ''}</p>
       </div>
     </div>`;

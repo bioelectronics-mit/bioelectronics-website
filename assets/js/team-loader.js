@@ -30,8 +30,8 @@ function renderPI(member) {
   if (!container) return;
 
   const photo = member.photo
-    ? `<div class="pic"><img src="${member.photo}" class="img-fluid" alt="${member.name}"
-         onerror="this.parentElement.style.display='none'"></div>`
+    ? `<div class="pic"><a href="polina.html"><img src="${member.photo}" class="img-fluid" alt="${member.name}"
+         onerror="this.parentElement.parentElement.style.display='none'" style="cursor:pointer;"></a></div>`
     : '';
 
   const roles = (member.roles || []).map(r => `<span class="d-block">${r}</span>`).join('');
@@ -46,6 +46,7 @@ function renderPI(member) {
       <div class="col-xl-9 col-md-8" style="padding:20px 30px;">
         <h4 style="margin-bottom:4px;">${member.name}</h4>
         ${roles}${email}${scholar}
+        <span style="margin-top:8px;display:block;"><a href="polina.html" class="btn btn-sm" style="font-size:0.75rem;padding:2px 10px;">More info</a></span>
       </div>
     </div>`;
 }
@@ -54,13 +55,13 @@ function renderPI(member) {
 function socialIconsHTML(member) {
   const icons = [];
   if (member.email)
-    icons.push(`<a href="mailto:${member.email}" target="_blank" title="Email" style="color:#5AB3E6;margin:0 4px;font-size:1rem;"><i class="bi bi-envelope-fill"></i></a>`);
+    icons.push(`<a href="mailto:${member.email}" target="_blank" title="Email" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-envelope-fill"></i></a>`);
   if (member.linkedin)
-    icons.push(`<a href="${member.linkedin}" target="_blank" title="LinkedIn" style="color:#5AB3E6;margin:0 4px;font-size:1rem;"><i class="bi bi-linkedin"></i></a>`);
+    icons.push(`<a href="${member.linkedin}" target="_blank" title="LinkedIn" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-linkedin"></i></a>`);
   if (member.scholar)
-    icons.push(`<a href="${member.scholar}" target="_blank" title="Google Scholar" style="color:#5AB3E6;margin:0 4px;font-size:1rem;"><i class="bi bi-mortarboard-fill"></i></a>`);
+    icons.push(`<a href="${member.scholar}" target="_blank" title="Google Scholar" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-mortarboard-fill"></i></a>`);
   if (member.twitter)
-    icons.push(`<a href="${member.twitter}" target="_blank" title="Twitter/X" style="color:#5AB3E6;margin:0 4px;font-size:1rem;"><i class="bi bi-twitter-x"></i></a>`);
+    icons.push(`<a href="${member.twitter}" target="_blank" title="Twitter/X" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-twitter-x"></i></a>`);
   if (!icons.length) return '';
   return `<div style="margin-top:6px;">${icons.join('')}</div>`;
 }

@@ -5,7 +5,7 @@
   "icon": "bx bx-radio-circle-marked",
   "summary": "Wireless, minimally invasive modulation of neural circuits using magnetic nanotransducers",
   "body": [
-    "Magnetic fields penetrate deep into the body without significant attenuation, making them attractive for minimally invasive neuromodulation. We develop magnetic nanotransducers — nanomaterials capable of selectively converting distinct magnetic field stimuli into specific signals perceived by neuronal receptors.",
+    "Magnetic fields penetrate deep into the body without significant attenuation, making them attractive for minimally invasive neuromodulation. We develop magnetic nanotransducers \u2014 nanomaterials capable of selectively converting distinct magnetic field stimuli into specific signals perceived by neuronal receptors.",
     "Our nanotransducers can undergo heating in alternating magnetic fields to trigger heat-sensitive ion channels (TRPV1), exert mechanical torque to stimulate mechanosensitive channels, or couple heating to thermosensitive reactions that deliver ions and pharmacological compounds to target chemoreceptors. Using these tools, we wirelessly and minimally invasively manipulate neuronal activity, hormonal release, and behavior under both physiological and pathological conditions. Current work explores the fundamental magnetic properties of these nanomaterials to expand the palette of magnetic modalities available for neuromodulation."
   ],
   "publications": [
@@ -30,5 +30,6 @@
       "year": 2024,
       "doi": "10.1038/s41565-024-01798-9"
     }
-  ]
+  ],
+  "overview_image": "assets/img/research/magnetic-nanomaterials.png"
 }

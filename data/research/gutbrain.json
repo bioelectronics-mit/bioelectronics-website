@@ -5,7 +5,7 @@
   "icon": "bx bx-transfer",
   "summary": "Understanding how peripheral organ signaling shapes brain function, behavior, and neurological disease",
   "body": [
-    "We study the link between neuronal and endocrine signaling in the periphery and brain dynamics and behavior. The gut is densely innervated and communicates with the brain via the vagus nerve, yet the neural basis of this communication remains poorly understood. Using multifunctional microelectronic fibers deployed in the intestine, we have demonstrated that optically stimulating vagal afferents in the gut is sufficient to impart a reward phenotype — a behavior previously attributed exclusively to dopamine neuron signaling in the brain.",
+    "We study the link between neuronal and endocrine signaling in the periphery and brain dynamics and behavior. The gut is densely innervated and communicates with the brain via the vagus nerve, yet the neural basis of this communication remains poorly understood. Using multifunctional microelectronic fibers deployed in the intestine, we have demonstrated that optically stimulating vagal afferents in the gut is sufficient to impart a reward phenotype \u2014 a behavior previously attributed exclusively to dopamine neuron signaling in the brain.",
     "Current projects leverage our neurotechnologies to conduct fundamental studies of organ-brain interoception under physiological conditions and in models of Parkinson's disease, Autism Spectrum Disorder, opioid addiction, and affective disorders. Our goal is to understand the enigmatic brain-body circuits underlying peripheral influences on high-level functions: reward, affect, and decision-making."
   ],
   "publications": [
@@ -30,5 +30,6 @@
       "year": 2025,
       "doi": "10.1038/s41586-025-09301-7"
     }
-  ]
+  ],
+  "overview_image": "assets/img/research/brain-body.png"
 }
