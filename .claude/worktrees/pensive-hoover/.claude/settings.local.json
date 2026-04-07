@@ -13,7 +13,11 @@
       "Bash(mv \"Multifunctional Neural Interfaces.png\" \"multifunctional-neural-interfaces.png\")",
       "Bash(mv \"Brain-body.png\" \"brain-body.png\")",
       "Bash(for dir:*)",
-      "Bash(do echo:*)"
+      "Bash(do echo:*)",
+      "Bash(grep -l \"nav-link scrollto\" /Users/Keisuke/github/Bioelectronics-website/*.html)",
+      "WebFetch(domain:www.nature.com)",
+      "WebFetch(domain:doi.org)",
+      "WebSearch"
     ]
   }
 }

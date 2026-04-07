@@ -28,7 +28,7 @@ function pubItemHTML(pub) {
     ? ` <a target="_blank" href="https://doi.org/${pub.doi}">DOI</a>` : '';
 
   // Explicit image in JSON takes priority; otherwise auto-probe by slug (jpg → png → hidden)
-  const imgStyle = 'max-height:120px;max-width:180px;object-fit:contain;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.15);';
+  const imgStyle = 'max-height:144px;max-width:216px;object-fit:contain;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.15);';
   let img = '';
   if (pub.image) {
     img = `<div style="margin-top:8px;"><img src="${pub.image}" alt="" style="${imgStyle}" onerror="this.parentElement.style.display='none'"></div>`;
@@ -38,7 +38,7 @@ function pubItemHTML(pub) {
       onerror="if(this.src.includes('.jpg')){this.src='data/publications/images/${slug}.png'}else{this.parentElement.style.display='none'}"></div>`;
   }
 
-  return `<li>${authors}. "${pub.title}" <i>${pub.journal}</i> <b>${pub.year}</b>.${doi}${img}</li>`;
+  return `<li>${authors}. "<b>${pub.title}</b>" <i>${pub.journal}</i> <b>${pub.year}</b>.${doi}${img}</li>`;
 }
 
 async function loadPublications() {
