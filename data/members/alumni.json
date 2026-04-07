@@ -197,6 +197,13 @@
   },
   {
     "type": "Graduate Student",
+    "name": "Juliette Alain-Marion",
+    "currentPosition": "Corning Incorporated",
+    "note": "Ph.D. DMSE. (2016-2022)",
+    "yearLeft": 2022
+  },
+  {
+    "type": "Graduate Student",
     "name": "Hannah Field",
     "currentPosition": "Graduate Student, Stanford University",
     "note": "M.S. EECS (2020-2022)",
