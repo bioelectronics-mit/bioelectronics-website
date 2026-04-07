@@ -1,0 +1,23 @@
+{
+  "name": "Ethan Frey",
+  "photo": "data/members/images/ethan-frey.jpg",
+  "role": "Graduate Student",
+  "department": "Materials Science and Engineering",
+  "email": "ejfrey3@mit.edu",
+  "interests": [
+    "Multifunctional Neural Probes",
+    "Soft Materials",
+    "Stretchable Electronics"
+  ],
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Materials Science and Engineering",
+      "institution": "NC State University",
+      "year": 2023
+    }
+  ],
+  "bio": "Ethan completed his undergraduate degree in Materials Science and Engineering with a concentration in nanomaterials at North Carolina State University. During his undergrad, he primarily worked on manipulating the mechanical properties of hydrogels and patterning liquid metal and graphene using laser fabrication techniques for stretchable electronics applications. Ethan is now interested in applying his knowledge of flexible/stretchable electronics to biology, studying the brain and its interaction with the peripheral nervous system. Outside of research, Ethan enjoys running, hiking/backpacking, and playing board games.",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=Ko7fW24AAAAJ",
+  "linkedin": "https://www.linkedin.com/in/ethan-frey-97530b16a"
+}

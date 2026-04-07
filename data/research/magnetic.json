@@ -1,0 +1,35 @@
+{
+  "id": "magnetic",
+  "title": "Magnetic Manipulation and Recording of Neuronal Signaling",
+  "image": "assets/img/research/NCT.jpg",
+  "icon": "bx bx-radio-circle-marked",
+  "summary": "Wireless, minimally invasive modulation of neural circuits using magnetic nanotransducers",
+  "body": [
+    "Magnetic fields penetrate deep into the body without significant attenuation, making them attractive for minimally invasive neuromodulation. We develop magnetic nanotransducers \u2014 nanomaterials capable of selectively converting distinct magnetic field stimuli into specific signals perceived by neuronal receptors.",
+    "Our nanotransducers can undergo heating in alternating magnetic fields to trigger heat-sensitive ion channels (TRPV1), exert mechanical torque to stimulate mechanosensitive channels, or couple heating to thermosensitive reactions that deliver ions and pharmacological compounds to target chemoreceptors. Using these tools, we wirelessly and minimally invasively manipulate neuronal activity, hormonal release, and behavior under both physiological and pathological conditions. Current work explores the fundamental magnetic properties of these nanomaterials to expand the palette of magnetic modalities available for neuromodulation."
+  ],
+  "publications": [
+    {
+      "authors": "R. Chen, G. Romero, M. G. Christiansen, A. Mohr, P. Anikeeva",
+      "title": "Wireless magnetothermal deep brain stimulation",
+      "journal": "Science",
+      "year": 2015,
+      "doi": "10.1126/science.1261821"
+    },
+    {
+      "authors": "D. Gregurec, A. W. Senko, A. Chuvilin, et al.",
+      "title": "Magnetic Vortex Nanodiscs Enable Remote Magnetomechanical Neural Stimulation",
+      "journal": "ACS Nano",
+      "year": 2020,
+      "doi": "10.1021/acsnano.0c00562"
+    },
+    {
+      "authors": "Y. J. Kim, et al.",
+      "title": "Magnetoelectric nanodiscs enable wireless transgene-free neuromodulation",
+      "journal": "Nature Nanotechnology",
+      "year": 2024,
+      "doi": "10.1038/s41565-024-01798-9"
+    }
+  ],
+  "overview_image": "assets/img/research/magnetic-nanomaterials.png"
+}

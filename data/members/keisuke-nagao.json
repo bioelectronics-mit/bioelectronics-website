@@ -1,0 +1,29 @@
+{
+  "name": "Keisuke Nagao",
+  "photo": "data/members/images/keisuke-nagao.jpg",
+  "role": "Graduate Student",
+  "department": "Materials Science and Engineering",
+  "email": "keinagao@mit.edu",
+  "interests": [
+    "Magnetic Nanoparticles",
+    "Surface Chemistry",
+    "Targeted Delivery"
+  ],
+  "education": [
+    {
+      "degree": "M.S.",
+      "field": "Materials Science and Engineering",
+      "institution": "University of Tokyo",
+      "year": 2015
+    },
+    {
+      "degree": "B.S.",
+      "field": "Materials Science and Engineering",
+      "institution": "University of Tokyo",
+      "year": 2013
+    }
+  ],
+  "bio": "Keisuke joined the Bioelectronics group in November 2020 and is co-advised by Polina and Prof. Robert Macfarlane in DMSE.\u00a0He completed BS/MS in Materials Science and Engineering at the University of Tokyo. After completing MS, Keisuke worked in the private sector as a research engineer for 5 years. His previous research was on inorganic functional materials such as sodium-ion battery electrodes. His current interests are in minimally invasive delivery of magnetic nanoparticles to target organs/tissues. Outside the lab, Keisuke enjoys coffee, photography, and time with his family.",
+  "linkedin": "https://www.linkedin.com/in/keisuke-nagao-661049168/",
+  "scholar": "https://scholar.google.com/citations?user=mcvoCZ8AAAAJ&hl=en"
+}

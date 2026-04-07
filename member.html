@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Member - MIT Bioelectronics Group</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="MIT Bioelectronics Group" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="news.html">News</a></li>
+          <li class="dropdown"><a href="research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="research.html#overview">Overview</a></li>
+              <li><a href="research.html#magnetic">Magnetic Nanomaterials</a></li>
+              <li><a href="research.html#fibers">Neural Interfaces</a></li>
+              <li><a href="research.html#gutbrain">Gut-Brain Axis</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto active" href="team.html">Team</a></li>
+          <li><a class="nav-link scrollto" href="publications.html">Publications</a></li>
+          <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="logo" id="mit-logo">
+        <a target="_blank" href="https://www.mit.edu/"><img src="assets/img/mit-logo-red.png" alt="" class="img-fluid"></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section class="team">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="member-name"></h2>
+        </div>
+        <div id="member-content"></div>
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row justify-content-md-center">
+
+          <div class="col-lg-8 col-md-10">
+            <div class="footer-info">
+              <h3>Bioelectronics Group at MIT</h3>
+              <div class="social-links mt-3">
+                <a target="_blank" href="https://www.mit.edu/"><img src="assets/img/logos/MIT-logo.svg"></a>
+                <a target="_blank" href="https://dmse.mit.edu/"><img src="assets/img/logos/DMSE.svg"></a>
+                <a target="_blank" href="https://www.rle.mit.edu/"><img src="assets/img/logos/RLE.svg"></a>
+                <a target="_blank" href="https://mcgovern.mit.edu/"><img src="assets/img/logos/McGovern.svg"></a>
+                <a target="_blank" href="https://yangtan.mit.edu/"><img src="assets/img/logos/Yang-Tan-Collective-Logo_MIT-Color.png"></a>
+              </div>
+              <h6 class="accessibility"><a target="_blank" href="https://accessibility.mit.edu/">Accessibility</a></h6>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    async function loadMember() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      if (!id) {
+        document.getElementById('member-name').textContent = 'Member not found';
+        return;
+      }
+
+      let member;
+      try {
+        const res = await fetch('data/members/' + id + '.json');
+        if (!res.ok) throw new Error('Not found');
+        member = await res.json();
+      } catch (e) {
+        document.getElementById('member-name').textContent = 'Member not found';
+        return;
+      }
+
+      // Update page title
+      document.title = member.name + ' - MIT Bioelectronics Group';
+      document.getElementById('member-name').textContent = member.name;
+
+      // Build role line
+      const role = member.role || (member.roles && member.roles.join(', ')) || '';
+      const dept = member.department ? `<span style="display:block;color:#555;">${member.department}</span>` : '';
+
+      // Photo
+      const photo = member.photo
+        ? `<div class="pic" style="max-width:280px;margin-bottom:20px;">
+             <img src="${member.photo}" class="img-fluid" alt="${member.name}"
+                  onerror="this.parentElement.style.display='none'">
+           </div>`
+        : '';
+
+      // Education
+      let eduHTML = '';
+      if (member.education && member.education.length) {
+        const items = member.education.map(e => {
+          const yr = e.year ? ` (${e.year})` : '';
+          return `<li>${e.degree} in ${e.field}, ${e.institution}${yr}</li>`;
+        }).join('');
+        eduHTML = `<h5 style="margin-top:24px;margin-bottom:8px;">Education</h5><ul style="padding-left:20px;">${items}</ul>`;
+      }
+
+      // Interests
+      let interestsHTML = '';
+      if (member.interests && member.interests.length) {
+        interestsHTML = `<h5 style="margin-top:24px;margin-bottom:8px;">Research Interests</h5>
+          <p>${member.interests.join(' &middot; ')}</p>`;
+      }
+
+      // Bio
+      const bioHTML = member.bio
+        ? `<h5 style="margin-top:24px;margin-bottom:8px;">Biography</h5><p>${member.bio}</p>`
+        : '';
+
+      // Email
+      const emailHTML = member.email
+        ? `<p style="margin-top:16px;"><i class="bi bi-envelope"></i> <a href="mailto:${member.email}">${member.email}</a></p>`
+        : '';
+
+      document.getElementById('member-content').innerHTML = `
+        <div class="row no-gutters">
+          <div class="col-md-4" data-aos="fade-up">${photo}</div>
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="100" style="padding: 0 20px;">
+            <h4 style="margin-bottom:4px;">${role}</h4>
+            ${dept}
+            ${emailHTML}
+            ${interestsHTML}
+            ${eduHTML}
+            ${bioHTML}
+          </div>
+        </div>`;
+
+      if (typeof AOS !== 'undefined') AOS.refresh();
+    }
+
+    document.addEventListener('DOMContentLoaded', loadMember);
+  </script>
+
+</body>
+
+</html>

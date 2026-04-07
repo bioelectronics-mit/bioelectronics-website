@@ -1,0 +1,26 @@
+{
+  "name": "Nasim Biglari",
+  "photo": "data/members/images/nasim-biglari.jpg",
+  "role": "Postdoctoral Fellow",
+  "email": "nbiglari@mit.edu",
+  "interests": [
+    "Gut-Brain Axis",
+    "Neuromodulation",
+    "Effects of Stress on Physiology"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Neuroscience",
+      "institution": "Max Planck Institute for Metabolism Research",
+      "year": 2021
+    },
+    {
+      "degree": "M.S.",
+      "field": "Molecular Biotechnology",
+      "institution": "University of Bonn",
+      "year": 2015
+    }
+  ],
+  "bio": "Nasim obtained her PhD from the Max Planck Institute for Metabolism Research, where she investigated the heterogeneity of pro-opiomelanocortin (POMC) neurons in the hypothalamus\u2014key regulators of satiety and energy balance. Her research focused on dissecting the diverse subpopulations within this critical neuronal group to better understand the neural mechanisms underlying appetite regulation.\nShe is broadly interested in understanding the mechanisms and physiological effects of stress on the gut-brain axis, particularly how chronic stress contributes to dysfunctional states such as irritable bowel syndrome (IBS). During her postdoctoral training, she aims to integrate the multifunctional tools developed by the Anikeeva group to explore the neural and molecular mechanisms underlying these dysfunctions.\nOutside of work, she enjoys traveling, exploring new cultures and cuisines, running, reading, and spending quality time with friends and family."
+}

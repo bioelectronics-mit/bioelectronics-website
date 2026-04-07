@@ -1,0 +1,29 @@
+{
+  "name": "Jacob Beckham",
+  "photo": "data/members/images/jacob-beckham.jpg",
+  "role": "Postdoctoral Fellow",
+  "email": "beckham@mit.edu",
+  "interests": [
+    "Magnetic Materials",
+    "Intracellular Signaling",
+    "Gut-Brain Axis"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Chemistry",
+      "institution": "Rice University",
+      "year": 2023
+    },
+    {
+      "degree": "B.S.",
+      "field": "Chemistry",
+      "institution": "University of Georgia",
+      "year": 2018
+    }
+  ],
+  "bio": "Jacob completed his undergraduate degree in Chemistry at the University of Georgia in 2018. After spending several months working on superconducting materials at Lawrence Livermore National Laboratory, he enrolled in a PhD program in Chemistry at Rice University. His thesis, which was completed in August 2023, comprised several studies on carbon nanomaterials, including graphene and molecular motors. Most significantly, Jacob's work showed that the rapid actuation of a molecular machine could be used to control intra and intercellular calcium waves in vitro and in vivo, demonstrating the use of mechanical force delivered by a small molecule to cause an intracellular signaling cascade. Jacob's work also addressed the use of these motors to treat fungal infections and demonstrated effective machine learning models built to predict the nucleation of graphene crystals in an electrothermal discharge. Jacob is excited to bring his expertise to the Bioelectronics group and build new tools for the control of cell signaling in the gut-brain axis. Outside the lab, Jacob enjoys martial arts, singing, and watching college football with his fianc\u00e9 and two cats.",
+  "linkedin": "https://www.linkedin.com/in/jacob-beckham-82082914a/",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=7g-Vv80AAAAJ&view_op=list_works",
+  "twitter": "https://twitter.com/JacobBeckham44"
+}

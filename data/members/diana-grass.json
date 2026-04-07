@@ -1,0 +1,24 @@
+{
+  "name": "Diana Grass",
+  "photo": "data/members/images/diana-grass.jpg",
+  "role": "Graduate Student",
+  "department": "Harvard-MIT Health Sciences and Technology",
+  "email": "dgrass@mit.edu",
+  "interests": [
+    "Neural Modulation",
+    "Magnetic Nanoparticles",
+    "Neuro-imaging",
+    "Neuro-immunology"
+  ],
+  "education": [
+    {
+      "degree": "B.A.",
+      "field": "Neuroscience and Behavior",
+      "institution": "Rutgers University",
+      "year": 2022
+    }
+  ],
+  "bio": "Diana completed her B.A. in Neuroscience and Behavior at Rutgers University in 2022 and immediately joined the Harvard-MIT Health Sciences and Technology Medical Engineering and Medical Physics PhD program. Previously, she conducted research on Alzheimer's disease and Autism Spectrum Disorders at the intersection of neuroimaging, neuroimmunology, and artificial intelligence. In her current research, Diana is investigating the modulation of the Spleen-Brain Axis Neuroinflammatory Reflex. Outside of the lab, Diana enjoys biking, cooking, photography, and embarking on new adventures with her family.",
+  "linkedin": "https://www.linkedin.com/in/dianagrass/",
+  "twitter": "https://twitter.com/dianam_grass"
+}

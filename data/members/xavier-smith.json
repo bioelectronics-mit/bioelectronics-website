@@ -1,0 +1,23 @@
+{
+  "name": "Xavier Smith",
+  "photo": "data/members/images/xavier-smith.jpg",
+  "role": "Graduate Student",
+  "department": "Electrical Engineering and Computer Science",
+  "email": "xaviers@mit.edu",
+  "interests": [
+    "Magnetic Particle Imaging",
+    "Non-invasive Neural Modulation",
+    "Nanomagnetic Materials"
+  ],
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Computer Engineering",
+      "institution": "University of Maryland, Baltimore County",
+      "year": 2023
+    }
+  ],
+  "bio": "Xavier Smith received his B.S. degree in Computer Engineering at the University of Maryland, Baltimore County in 2023, where his previous research focused on developing robust machine learning interfaces using cable theory dynamics for transradial myoelectric prosthetic devices. He joined the bioelectronics group shortly after to investigate the role of nanomagnetic particles used in non-invasive neural imaging, stimulation, and recording.",
+  "linkedin": "https://www.linkedin.com/in/xavier-smith-796170201",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=5SULuzsAAAAJ"
+}

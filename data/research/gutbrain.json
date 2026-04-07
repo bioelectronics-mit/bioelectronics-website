@@ -1,0 +1,35 @@
+{
+  "id": "gutbrain",
+  "title": "Peripheral Organ Signaling and Brain Function",
+  "image": "assets/img/research/PAE Temp.jpg",
+  "icon": "bx bx-transfer",
+  "summary": "Understanding how peripheral organ signaling shapes brain function, behavior, and neurological disease",
+  "body": [
+    "We study the link between neuronal and endocrine signaling in the periphery and brain dynamics and behavior. The gut is densely innervated and communicates with the brain via the vagus nerve, yet the neural basis of this communication remains poorly understood. Using multifunctional microelectronic fibers deployed in the intestine, we have demonstrated that optically stimulating vagal afferents in the gut is sufficient to impart a reward phenotype \u2014 a behavior previously attributed exclusively to dopamine neuron signaling in the brain.",
+    "Current projects leverage our neurotechnologies to conduct fundamental studies of organ-brain interoception under physiological conditions and in models of Parkinson's disease, Autism Spectrum Disorder, opioid addiction, and affective disorders. Our goal is to understand the enigmatic brain-body circuits underlying peripheral influences on high-level functions: reward, affect, and decision-making."
+  ],
+  "publications": [
+    {
+      "authors": "K. L. Buchanan, L. E. Rupprecht, M. M. Kaelberer, et al.",
+      "title": "The preference for sugar over sweetener depends on a gut sensor cell",
+      "journal": "Nature Neuroscience",
+      "year": 2022,
+      "doi": "10.1038/s41593-021-00982-7"
+    },
+    {
+      "authors": "A. Sahasrabudhe, L. E. Rupprecht, S. Orguc, et al.",
+      "title": "Multifunctional microelectronic fibers enable wireless modulation of gut and brain neural circuits",
+      "journal": "Nature Biotechnology",
+      "year": 2023,
+      "doi": "10.1038/s41587-023-01833-5"
+    },
+    {
+      "authors": "W. W. Liu, N. Reicher, E. Alway, et al.",
+      "title": "A gut sense for a microbial pattern regulates feeding",
+      "journal": "Nature",
+      "year": 2025,
+      "doi": "10.1038/s41586-025-09301-7"
+    }
+  ],
+  "overview_image": "assets/img/research/brain-body.png"
+}

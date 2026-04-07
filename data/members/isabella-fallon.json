@@ -1,0 +1,28 @@
+{
+  "name": "Isabella Fallon",
+  "photo": "data/members/images/isabella-fallon.png",
+  "role": "Postdoctoral Associate",
+  "email": "ipf@mit.edu",
+  "interests": [
+    "Neurodegenerative Diseases",
+    "Gut-Brain Axis",
+    "Stretchable Electronics"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Neurobiology",
+      "institution": "Duke University School of Medicine",
+      "year": 2024
+    },
+    {
+      "degree": "B.A.",
+      "field": "Psychology and Neuroscience",
+      "institution": "University of Colorado Boulder",
+      "year": 2017
+    }
+  ],
+  "bio": "In May 2017, Isabella received her B.A. in Psychology and Neuroscience from the University of Colorado Boulder. There, under the guidance of Dr. Steven Maier, she investigated the neural-prophylactic effects of exercise and control on stress. Her work identified a sex difference in stress outcomes driven by dopamine dynamics in the prefrontal cortex. In May 2024, she earned her Ph.D. in Neurobiology from Duke University School of Medicine, where she investigated how motor sequences and dexterous movements are regulated by the basal ganglia under the mentorship of Dr. Henry Yin. Her work uncovered a novel \u201cpush\u2013pull\u201d circuit mechanism that determines movement trajectories toward goal targets. Isabella is excited to bring her expertise in Neurobiology to the Bioelectronics group to develop neurobiologically inspired technologies to restore and enhance functions lost due to neurodegenerative disease. In her free time, she enjoys traveling, practicing yoga, dancing, and spending time outdoors (skiing, trail running, and climbing). She is excited about all things in life!",
+  "linkedin": "https://www.linkedin.com/in/isabella-fallon-/",
+  "scholar": "https://scholar.google.com/citations?hl=en"
+}

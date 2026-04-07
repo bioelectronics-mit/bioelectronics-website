@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>News - MIT Bioelectronics Group</title>
+
+  <link href="assets/img/favicon.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="MIT Bioelectronics Group" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="news.html">News</a></li>
+          <li class="dropdown"><a href="research.html"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="research.html#overview">Overview</a></li>
+              <li><a href="research.html#magnetic">Magnetic Nanomaterials</a></li>
+              <li><a href="research.html#fibers">Neural Interfaces</a></li>
+              <li><a href="research.html#gutbrain">Gut-Brain Axis</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="team.html">Team</a></li>
+          <li><a class="nav-link scrollto" href="publications.html">Publications</a></li>
+          <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="logo" id="mit-logo">
+        <a target="_blank" href="https://www.mit.edu/"><img src="assets/img/mit-logo-red.png" alt="" class="img-fluid"></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="news-title"></h2>
+        </div>
+
+        <div id="news-content" style="max-width:800px;margin:0 auto;">
+          <p style="color:#888;">Loading…</p>
+        </div>
+
+        <div style="margin-top:40px;">
+          <a href="news.html" style="font-size:0.9rem;">← Back to News</a>
+        </div>
+
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="footer-info">
+              <h3>Bioelectronics Group at MIT</h3>
+              <div class="social-links mt-3">
+                <a target="_blank" href="https://www.mit.edu/"><img src="assets/img/logos/MIT-logo.svg"></a>
+                <a target="_blank" href="https://dmse.mit.edu/"><img src="assets/img/logos/DMSE.svg"></a>
+                <a target="_blank" href="https://www.rle.mit.edu/"><img src="assets/img/logos/RLE.svg"></a>
+                <a target="_blank" href="https://mcgovern.mit.edu/"><img src="assets/img/logos/McGovern.svg"></a>
+                <a target="_blank" href="https://yangtan.mit.edu/"><img src="assets/img/logos/Yang-Tan-Collective-Logo_MIT-Color.png"></a>
+              </div>
+              <h6 class="accessibility"><a target="_blank" href="https://accessibility.mit.edu/">Accessibility</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    async function loadNewsItem() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      const titleEl   = document.getElementById('news-title');
+      const contentEl = document.getElementById('news-content');
+
+      if (!id) {
+        titleEl.textContent = 'News item not found';
+        contentEl.innerHTML = '';
+        return;
+      }
+
+      let item;
+      try {
+        const res = await fetch('data/news/' + id + '.json');
+        if (!res.ok) throw new Error('Not found');
+        item = await res.json();
+      } catch (e) {
+        titleEl.textContent = 'News item not found';
+        contentEl.innerHTML = '<p>Could not load this news item.</p>';
+        return;
+      }
+
+      document.title = item.title + ' - MIT Bioelectronics Group';
+      titleEl.textContent = item.title;
+
+      // Date
+      const dateHTML = `<p style="color:#888;margin-bottom:20px;">${item.date}</p>`;
+
+      // Featured image: explicit → auto jpg → auto png → none
+      const slug = id;
+      const imgStyle = 'max-width:100%;height:auto;border-radius:4px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.12);';
+      let imgHTML = '';
+      if (item.image) {
+        imgHTML = `<div><img src="${item.image}" style="${imgStyle}" alt="" onerror="this.parentElement.style.display='none'"></div>`;
+      } else {
+        imgHTML = `<div><img src="data/news/images/${slug}.jpg" style="${imgStyle}" alt=""
+          onerror="if(this.src.includes('.jpg')){this.src='data/news/images/${slug}.png'}else{this.parentElement.style.display='none'}"></div>`;
+      }
+
+      // Body
+      const bodyHTML = item.body
+        ? `<div style="line-height:1.8;">${item.body}</div>`
+        : '';
+
+      contentEl.innerHTML = dateHTML + imgHTML + bodyHTML;
+    }
+
+    document.addEventListener('DOMContentLoaded', loadNewsItem);
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Dongjun Jung",
+  "photo": "data/members/images/dongjun-jung.jpg",
+  "role": "Postdoctoral Associate",
+  "email": "djung91@mit.edu",
+  "interests": [
+    "Nanomaterials",
+    "Stretchable Conductors",
+    "Soft Implantable Devices"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Chemical and Biological Engineering",
+      "institution": "Seoul National University",
+      "year": 2021
+    },
+    {
+      "degree": "B.S.",
+      "field": "Bioengineering",
+      "institution": "Hanyang University",
+      "year": 2014
+    }
+  ],
+  "bio": "Dongjun Jung is a researcher who obtained his B.S. degree from Hanyang University and his Ph.D. from Seoul National University in South Korea. During his previous research, he primarily concentrated on the development of soft devices utilizing metallic nanocomposites. He joined the Bioelectronics group in February 2023, as a postdoc in Research Laboratory of Electronics at MIT. He was fascinated by the capability to apply his expertise in soft devices to real in vivo environments. Currently, his primary focus is on developing soft implantable devices capable of modulating various organs. Outside of the lab, he enjoys work-out and playing soccer.",
+  "scholar": "https://scholar.google.co.kr/citations?user=D4a8zk8AAAAJ&hl=ko"
+}

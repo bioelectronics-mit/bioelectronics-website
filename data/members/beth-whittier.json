@@ -1,0 +1,22 @@
+{
+  "name": "Beth Whittier",
+  "photo": "data/members/images/beth-whittier.png",
+  "role": "Graduate Student",
+  "department": "Electrical Engineering and Computer Science",
+  "email": "bethwh@gmail.com",
+  "interests": [
+    "Neural Modulation",
+    "Magnetic Nanoparticles",
+    "Solid State Devices"
+  ],
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Electrical Engineering",
+      "institution": "Columbia University",
+      "year": 2021
+    }
+  ],
+  "bio": "Beth completed her BS in Electrical Engineering from Columbia University in 2021 and joined the MIT Electrical Engineering and Computer Science department later that year. Beth\u2019s undergraduate research explored nanofluidics for electrophysiology and the fabrication of an ultrasound receiver array for photoacoustic tomography. She is currently focused on developing fabrication processes for multiferroic nanoparticles and instruments for magnetic particle imaging. Outside of the lab Beth enjoys reading, listening to music, and exploring the city.",
+  "linkedin": "https://www.linkedin.com/in/bethwhittier"
+}

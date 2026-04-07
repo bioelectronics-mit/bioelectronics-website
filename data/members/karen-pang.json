@@ -1,0 +1,22 @@
+{
+  "name": "Karen Ka Lam Pang",
+  "photo": "data/members/images/karen-pang.jpg",
+  "role": "Graduate Student",
+  "department": "Brain and Cognitive Sciences",
+  "email": "pangk@mit.edu",
+  "interests": [
+    "Gut-Brain Axis",
+    "Interoception",
+    "Neural Modulation"
+  ],
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Life Sciences",
+      "institution": "National University of Singapore",
+      "year": 2017
+    }
+  ],
+  "bio": "Karen completed her undergraduate degree in Life Sciences at the National University of Singapore. She joined the Bioelectronics Group in 2021. Her current research focuses on the influence of the viscera on brain function and behavior, with emphasis on how internal organ signals shape perception and cognition.",
+  "linkedin": "https://www.linkedin.com/in/klkarenpang/"
+}
