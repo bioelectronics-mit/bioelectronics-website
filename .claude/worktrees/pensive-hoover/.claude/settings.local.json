@@ -11,7 +11,9 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(mv \"magnetic nanomaterials.png\" \"magnetic-nanomaterials.png\")",
       "Bash(mv \"Multifunctional Neural Interfaces.png\" \"multifunctional-neural-interfaces.png\")",
-      "Bash(mv \"Brain-body.png\" \"brain-body.png\")"
+      "Bash(mv \"Brain-body.png\" \"brain-body.png\")",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)"
     ]
   }
 }
