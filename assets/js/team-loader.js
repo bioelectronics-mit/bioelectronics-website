@@ -141,7 +141,7 @@ function renderAlumni(alumni) {
     <div class="content">${listHTML(postdocs)}</div>
     <div class="grouping"><h4>Graduate Students</h4></div>
     <div class="content">${listHTML(grads)}</div>
-    <div class="grouping"><h4>Undergraduate Students &amp; Visiting Researchers</h4></div>
+    <div class="grouping"><h4>Staffs, Undergraduate Students, &amp; Visiting Researchers</h4></div>
     <div class="content">${listHTML(others)}</div>`;
 }
 
