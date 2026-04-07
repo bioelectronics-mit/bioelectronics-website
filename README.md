@@ -1,6 +1,6 @@
 # Bioelectronics at MIT — Website
 
-Website for the [Bioelectronics Group at MIT](https://anikeeva.mit.edu/).
+Website for the [Bioelectronics Group at MIT](https://bioelectgronics.mit.edu/).
 
 ---
 
