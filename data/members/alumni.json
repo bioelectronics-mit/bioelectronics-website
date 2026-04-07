@@ -15,8 +15,15 @@
   },
   {
     "type": "Postdoctoral",
+    "name": "Nicolette Driscoll",
+    "currentPosition": "Co-Founder, CTO, NeuroBionics",
+    "note": "2022-2023",
+    "yearLeft": 2023
+  },
+  {
+    "type": "Postdoctoral",
     "name": "Marie Manthey",
-    "currentPosition": null,
+    "currentPosition": "Assistant Editor at Wiley-VCH",
     "note": "2020–2023",
     "yearLeft": 2023
   },
@@ -37,16 +44,16 @@
   {
     "type": "Postdoctoral",
     "name": "Georgios Varnavides",
-    "currentPosition": "Postdoctoral Fellow, UC Berkeley",
-    "note": null,
-    "yearLeft": null
+    "currentPosition": "Assistant Professor of Imaging Physics, TU Delft",
+    "note": "2017-2022",
+    "yearLeft": 2022
   },
   {
     "type": "Postdoctoral",
     "name": "Youngbin Lee",
     "currentPosition": "Postdoctoral Fellow, MIT (w/ Yoel Fink)",
-    "note": null,
-    "yearLeft": null
+    "note": "2016-2022",
+    "yearLeft": 2022
   },
   {
     "type": "Postdoctoral",
@@ -143,57 +150,57 @@
     "type": "Graduate Student",
     "name": "Ye Ji Kim",
     "currentPosition": "Postdoctoral Researcher, Gradinaru Lab, Caltech",
-    "note": "Ph.D. 2025",
+    "note": "Ph.D. DMSE 2025 (2021-2025)",
     "yearLeft": 2025
   },
   {
     "type": "Graduate Student",
     "name": "Florian Koehler",
-    "currentPosition": null,
-    "note": "Ph.D. MIT EECS, 2024",
+    "currentPosition": "R&D Engineer, Instapath Inc.",
+    "note": "Ph.D. MIT EECS, 2024 (2018-2024)",
     "yearLeft": 2024
   },
   {
     "type": "Graduate Student",
     "name": "Atharva Sahasrabudhe",
     "currentPosition": "Postdoctoral Researcher, MIT (Kim & Cheema groups)",
-    "note": "Ph.D. 2024; MRS Silver Graduate Student Award 2023",
+    "note": "Ph.D. 2024 (2018-2024)",
     "yearLeft": 2024
   },
   {
     "type": "Graduate Student",
     "name": "Elian Malkin",
-    "currentPosition": null,
-    "note": "M.S. Brain and Cognitive Sciences, 2022–2024",
+    "currentPosition": "Machine Learning Engineer, Emberlight",
+    "note": "M.S. Brain and Cognitive Sciences (2022–2024)",
     "yearLeft": 2024
   },
   {
     "type": "Graduate Student",
     "name": "Indie Garwood",
-    "currentPosition": null,
-    "note": "Ph.D. 2023",
+    "currentPosition": "Postdoctoral Researcher, UPenn Medicine",
+    "note": "Ph.D. MIT HST, 2023",
     "yearLeft": 2023
   },
   {
     "type": "Graduate Student",
     "name": "Anthony Tabet",
-    "currentPosition": null,
+    "currentPosition": "Associate, Boxer Capital Management",
     "note": "Ph.D. 2023",
     "yearLeft": 2023
   },
   {
-    "type": "Graduate Student",
+    "type": "Graduate Student/Postdoctoral Researcher",
     "name": "Marc-Joseph Antonini",
-    "currentPosition": null,
-    "note": "Ph.D. MIT",
-    "yearLeft": null
+    "currentPosition": "Co-Founder, CEO, NeuroBionics",
+    "note": "Ph.D. MIT HST. 2015-2023",
+    "yearLeft": 2023
   },
   {
     "type": "Graduate Student",
     "name": "Hannah Field",
     "currentPosition": "Graduate Student, Stanford University",
-    "note": null,
-    "yearLeft": null
+    "note": "M.S. EECS (2020-2022)",
+    "yearLeft": 2022
   },
   {
     "type": "Graduate Student",
@@ -254,7 +261,7 @@
   {
     "type": "Graduate Student",
     "name": "Ritchie Chen",
-    "currentPosition": "Postdoc, Stanford (w/ Karl Deisseroth)",
+    "currentPosition": "Assistant Professor, UCSD <- Postdoc, Stanford (w/ Karl Deisseroth)",
     "note": "Ph.D. 2016",
     "yearLeft": 2016
   },
@@ -270,6 +277,13 @@
     "name": "Emmanuel Vargas",
     "currentPosition": null,
     "note": "Research Support Associate, 2022–2025",
+    "yearLeft": 2025
+  },
+  {
+    "type": "Other",
+    "name": "Emily Crespin Guerra",
+    "currentPosition": "Under graduate Student, MIT DMSE; UROP student w/ Prof. Lopez Silva (DMSE)",
+    "note": "Undergraduate Researcher, 2024–2025",
     "yearLeft": 2025
   },
   {
@@ -304,7 +318,7 @@
     "type": "Other",
     "name": "Veronica Will",
     "currentPosition": null,
-    "note": "Biological Engineering, Class of 2023",
+    "note": "Undergraduate, Biological Engineering, Class of 2023",
     "yearLeft": 2023
   },
   {
