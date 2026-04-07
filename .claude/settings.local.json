@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python3 -c \"import json; data=json.load\\(open\\(''data/members/alumni.json''\\)\\); print\\(''Valid JSON,'', len\\(data\\), ''entries''\\)\")"
-    ]
-  }
-}
