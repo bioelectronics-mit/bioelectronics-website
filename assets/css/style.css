@@ -831,6 +831,133 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Publications
+--------------------------------------------------------------*/
+
+/* Filter buttons */
+.pub-filters {
+  margin-bottom: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pub-filter-btn {
+  padding: 5px 14px;
+  border: 1.5px solid #3B66E8;
+  border-radius: 20px;
+  background: transparent;
+  color: #3B66E8;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.pub-filter-btn:hover,
+.pub-filter-btn.active {
+  background: #3B66E8;
+  color: #fff;
+}
+
+/* Year group */
+.pub-year-group {
+  margin-bottom: 36px;
+}
+
+.pub-year {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3D4558;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+/* Individual publication */
+.pub-item {
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+/* Tags row */
+.pub-tags {
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.pub-tag {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Title */
+.pub-title {
+  font-size: 15.5px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.pub-title-link {
+  color: #3B66E8;
+  text-decoration: none;
+}
+
+.pub-title-link:hover {
+  color: #7090F0;
+  text-decoration: underline;
+}
+
+.pub-title-text {
+  color: #3D4558;
+}
+
+/* Authors */
+.pub-authors {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+/* Journal / doi line */
+.pub-meta {
+  font-size: 14px;
+  color: #777;
+}
+
+.pub-meta a {
+  color: #777;
+}
+
+.pub-meta a:hover {
+  color: #3B66E8;
+}
+
+/* Optional thumbnail */
+.pub-img-wrap {
+  margin-top: 8px;
+}
+
+.pub-img-wrap img {
+  max-height: 144px;
+  max-width: 216px;
+  object-fit: contain;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {

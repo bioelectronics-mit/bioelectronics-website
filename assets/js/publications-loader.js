@@ -7,7 +7,11 @@
  *
  * Required fields per entry:
  *   title, authors (array), year (int), journal
- * Optional: doi, type ("article" | "review" | "preprint"), image (path in data/publications/images/)
+ * Optional:
+ *   doi       – DOI string (without https://doi.org/ prefix)
+ *   type      – "article" | "review" | "preprint"
+ *   tags      – array of strings, e.g. ["Neural Interface", "Magnetic"]
+ *   image     – path in data/publications/images/
  */
 
 async function fetchJSON(url) {
@@ -22,37 +26,86 @@ function formatAuthors(authors) {
   return authors.slice(0, 5).join(', ') + ', et al.';
 }
 
+// Consistent colors for tags – cycles through palette for unknown tags
+const TAG_COLORS = [
+  '#3B66E8', '#7B4FBF', '#2A9D8F', '#E76F51', '#457B9D',
+  '#6D6875', '#2D6A4F', '#C77DFF', '#E9C46A', '#1D3557',
+];
+const tagColorMap = {};
+let tagColorIdx = 0;
+function tagColor(tag) {
+  if (!tagColorMap[tag]) {
+    tagColorMap[tag] = TAG_COLORS[tagColorIdx % TAG_COLORS.length];
+    tagColorIdx++;
+  }
+  return tagColorMap[tag];
+}
+
 function pubItemHTML(pub) {
   const authors = formatAuthors(pub.authors);
-  const doi = pub.doi
-    ? ` <a target="_blank" href="https://doi.org/${pub.doi}">DOI</a>` : '';
+  const doiUrl = pub.doi ? `https://doi.org/${pub.doi}` : null;
 
-  // Explicit image in JSON takes priority; otherwise auto-probe by slug (jpg → png → hidden)
-  const imgStyle = 'max-height:144px;max-width:216px;object-fit:contain;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.15);';
-  let img = '';
+  const titleEl = doiUrl
+    ? `<a href="${doiUrl}" target="_blank" class="pub-title-link">${pub.title}</a>`
+    : `<span class="pub-title-text">${pub.title}</span>`;
+
+  const metaDoi = pub.doi
+    ? ` | doi:<a href="${doiUrl}" target="_blank">${pub.doi}</a>`
+    : '';
+
+  const tagsHTML = (pub.tags && pub.tags.length)
+    ? `<div class="pub-tags">${pub.tags.map(t =>
+        `<span class="pub-tag" style="background:${tagColor(t)}">${t}</span>`
+      ).join('')}</div>`
+    : '';
+
+  // Image (explicit or auto-probed by slug)
+  let imgHTML = '';
   if (pub.image) {
-    img = `<div style="margin-top:8px;"><img src="${pub.image}" alt="" style="${imgStyle}" onerror="this.parentElement.style.display='none'"></div>`;
+    imgHTML = `<div class="pub-img-wrap"><img src="${pub.image}" alt="" onerror="this.parentElement.style.display='none'"></div>`;
   } else if (pub._slug) {
     const slug = pub._slug;
-    img = `<div style="margin-top:8px;"><img src="data/publications/images/${slug}.jpg" alt="" style="${imgStyle}"
+    imgHTML = `<div class="pub-img-wrap"><img src="data/publications/images/${slug}.jpg" alt=""
       onerror="if(this.src.includes('.jpg')){this.src='data/publications/images/${slug}.png'}else{this.parentElement.style.display='none'}"></div>`;
   }
 
-  return `<li>${authors}. "<b>${pub.title}</b>" <i>${pub.journal}</i> <b>${pub.year}</b>.${doi}${img}</li>`;
+  const allTags = [pub.type, ...(pub.tags || [])].filter(Boolean);
+  const dataAttr = allTags.map(t => `data-tag-${t.toLowerCase().replace(/\s+/g, '-')}="1"`).join(' ');
+
+  return `
+  <div class="pub-item" data-type="${pub.type || ''}" ${dataAttr}>
+    ${tagsHTML}
+    <div class="pub-title">${titleEl}</div>
+    <div class="pub-authors">${authors}</div>
+    <div class="pub-meta"><em>${pub.journal}</em>, ${pub.year}${metaDoi}</div>
+    ${imgHTML}
+  </div>`;
+}
+
+function buildFilterButtons(allTags) {
+  if (!allTags.length) return '';
+  const btns = ['All', ...allTags].map((tag, i) => {
+    const active = i === 0 ? ' active' : '';
+    return `<button class="pub-filter-btn${active}" data-filter="${tag === 'All' ? 'all' : tag}">${tag}</button>`;
+  });
+  return `<div class="pub-filters">${btns.join('')}</div>`;
 }
 
 async function loadPublications() {
   try {
     const filenames = await fetchJSON('data/publications/index.json');
-    // Load each pub and attach the base slug (filename without .json) for image lookup
     const pubs = await Promise.all(filenames.map(async f => {
       const data = await fetchJSON('data/publications/' + f);
-      if (!data.image) {
-        const slug = f.replace(/\.json$/, '');
-        data._slug = slug; // used to probe for image
-      }
+      if (!data.image) data._slug = f.replace(/\.json$/, '');
       return data;
     }));
+
+    // Collect all unique tags (from tags arrays only, not type)
+    const tagSet = new Set();
+    for (const pub of pubs) {
+      if (pub.tags) pub.tags.forEach(t => tagSet.add(t));
+    }
+    const allTags = [...tagSet];
 
     // Group by year (descending)
     const byYear = {};
@@ -65,13 +118,38 @@ async function loadPublications() {
     const container = document.getElementById('publications-container');
     if (!container) return;
 
-    container.innerHTML = years.map(year => `
-      <div class="content">
-        <h2>${year}</h2>
-        <ul>${byYear[year].map(pubItemHTML).join('')}</ul>
-      </div>`).join('');
+    container.innerHTML =
+      buildFilterButtons(allTags) +
+      years.map(year => `
+        <div class="pub-year-group">
+          <h2 class="pub-year">${year}</h2>
+          ${byYear[year].map(pubItemHTML).join('')}
+        </div>`).join('');
 
-    // AOS.refresh() disabled
+    // Filter logic
+    container.querySelectorAll('.pub-filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        container.querySelectorAll('.pub-filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+        container.querySelectorAll('.pub-item').forEach(item => {
+          if (filter === 'all') {
+            item.style.display = '';
+          } else {
+            const key = filter.toLowerCase().replace(/\s+/g, '-');
+            item.style.display = item.getAttribute(`data-tag-${key}`) === '1' ? '' : 'none';
+          }
+        });
+
+        // Hide year groups that have no visible publications
+        container.querySelectorAll('.pub-year-group').forEach(group => {
+          const visible = [...group.querySelectorAll('.pub-item')].some(el => el.style.display !== 'none');
+          group.style.display = visible ? '' : 'none';
+        });
+      });
+    });
+
   } catch (err) {
     console.error('Publications loader error:', err);
     document.getElementById('publications-container').innerHTML =
