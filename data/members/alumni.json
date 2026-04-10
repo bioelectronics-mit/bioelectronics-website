@@ -150,35 +150,35 @@
     "type": "Graduate Student",
     "name": "Ye Ji Kim",
     "currentPosition": "Postdoctoral Researcher, Gradinaru Lab, Caltech",
-    "note": "Ph.D. DMSE 2025 (2021-2025)",
+    "note": "Ph.D. DMSE (2021-2025)",
     "yearLeft": 2025
   },
   {
     "type": "Graduate Student",
     "name": "Florian Koehler",
     "currentPosition": "R&D Engineer, Instapath Inc.",
-    "note": "Ph.D. MIT EECS, 2024 (2018-2024)",
+    "note": "Ph.D. EECS (2018-2024)",
     "yearLeft": 2024
   },
   {
     "type": "Graduate Student",
     "name": "Atharva Sahasrabudhe",
     "currentPosition": "Postdoctoral Researcher, MIT (Kim & Cheema groups)",
-    "note": "Ph.D. 2024 (2018-2024)",
+    "note": "Ph.D. Chemistry (2018-2024)",
     "yearLeft": 2024
   },
   {
     "type": "Graduate Student",
     "name": "Elian Malkin",
     "currentPosition": "Machine Learning Engineer, Emberlight",
-    "note": "M.S. Brain and Cognitive Sciences (2022–2024)",
+    "note": "M.S. BCS (2022–2024)",
     "yearLeft": 2024
   },
   {
     "type": "Graduate Student",
     "name": "Indie Garwood",
     "currentPosition": "Postdoctoral Researcher, UPenn Medicine",
-    "note": "Ph.D. MIT HST, 2023",
+    "note": "Ph.D. HST, 2023",
     "yearLeft": 2023
   },
   {
@@ -192,14 +192,14 @@
     "type": "Graduate Student",
     "name": "Marc-Joseph Antonini",
     "currentPosition": "Co-Founder, CEO, NeuroBionics",
-    "note": "Ph.D. MIT HST. 2015-2023",
+    "note": "Ph.D. HST (2015-2023)",
     "yearLeft": 2023
   },
   {
     "type": "Graduate Student",
     "name": "Juliette Alain-Marion",
     "currentPosition": "Corning Incorporated",
-    "note": "Ph.D. DMSE. (2016-2022)",
+    "note": "Ph.D. DMSE (2016-2022)",
     "yearLeft": 2022
   },
   {
@@ -213,14 +213,14 @@
     "type": "Graduate Student",
     "name": "Jimin Park",
     "currentPosition": "Assistant Professor, KAIST",
-    "note": "Ph.D. 2021",
+    "note": "Ph.D. DMSE (2018-2021)",
     "yearLeft": 2021
   },
   {
     "type": "Graduate Student",
     "name": "Junsang Moon",
     "currentPosition": "Process Engineer, Applied Materials",
-    "note": "Ph.D. 2020",
+    "note": "Ph.D. DMSE 2020",
     "yearLeft": 2020
   },
   {
@@ -289,7 +289,7 @@
   {
     "type": "Other",
     "name": "Emily Crespin Guerra",
-    "currentPosition": "Undergraduate Student, MIT DMSE; UROP student w/ Prof. Lopez Silva (DMSE)",
+    "currentPosition": "UROP student w/ Prof. Lopez Silva (DMSE)",
     "note": "Undergraduate Researcher, 2024–2025",
     "yearLeft": 2025
   },
