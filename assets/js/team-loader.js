@@ -60,6 +60,8 @@ function socialIconsHTML(member) {
     icons.push(`<a href="${member.linkedin}" target="_blank" title="LinkedIn" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-linkedin"></i></a>`);
   if (member.scholar)
     icons.push(`<a href="${member.scholar}" target="_blank" title="Google Scholar" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-mortarboard-fill"></i></a>`);
+  if (member.instagram)
+    icons.push(`<a href="${member.instagram}" target="_blank" title="Instagram" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-instagram"></i></a>`);
   if (member.twitter)
     icons.push(`<a href="${member.twitter}" target="_blank" title="Twitter/X" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-twitter-x"></i></a>`);
   if (!icons.length) return '';
