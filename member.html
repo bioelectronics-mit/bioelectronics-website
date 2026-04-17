@@ -164,6 +164,16 @@
         ? `<p style="margin-top:16px;"><i class="bi bi-envelope"></i> <a href="mailto:${member.email}">${member.email}</a></p>`
         : '';
 
+      // Social links
+      const socialLinks = [];
+      if (member.scholar) socialLinks.push(`<a href="${member.scholar}" target="_blank" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>`);
+      if (member.linkedin) socialLinks.push(`<a href="${member.linkedin}" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>`);
+      if (member.instagram) socialLinks.push(`<a href="${member.instagram}" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>`);
+      if (member.twitter) socialLinks.push(`<a href="${member.twitter}" target="_blank" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>`);
+      const socialHTML = socialLinks.length
+        ? `<p style="margin-top:8px;font-size:1.3rem;display:flex;gap:12px;align-items:center;">${socialLinks.join('')}</p>`
+        : '';
+
       document.getElementById('member-content').innerHTML = `
         <div class="row no-gutters">
           <div class="col-md-4" data-aos="fade-up">${photo}</div>
@@ -171,6 +181,7 @@
             <h4 style="margin-bottom:4px;">${role}</h4>
             ${dept}
             ${emailHTML}
+            ${socialHTML}
             ${interestsHTML}
             ${eduHTML}
             ${bioHTML}
