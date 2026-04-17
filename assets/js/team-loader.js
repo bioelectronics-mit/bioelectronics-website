@@ -63,7 +63,7 @@ function socialIconsHTML(member) {
   if (member.instagram)
     icons.push(`<a href="${member.instagram}" target="_blank" title="Instagram" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-instagram"></i></a>`);
   if (member.twitter)
-    icons.push(`<a href="${member.twitter}" target="_blank" title="Twitter/X" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-twitter-x"></i></a>`);
+    icons.push(`<a href="${member.twitter}" target="_blank" title="Twitter/X" style="color:#3B66E8;margin:0 4px;font-size:1rem;"><i class="bi bi-twitter"></i></a>`);
   if (!icons.length) return '';
   return `<div style="margin-top:6px;">${icons.join('')}</div>`;
 }
