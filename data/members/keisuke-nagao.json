@@ -1,7 +1,7 @@
 {
   "name": "Keisuke Nagao",
   "photo": "data/members/images/keisuke-nagao.jpg",
-  "role": "Graduate Student",
+  "role": "Postdoctoral Associate",
   "department": "Materials Science and Engineering",
   "email": "keinagao@mit.edu",
   "interests": [
@@ -10,6 +10,12 @@
     "Targeted Delivery"
   ],
   "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "Massachusetts Institute of Technology",
+      "year": 2026
+    },
     {
       "degree": "M.S.",
       "field": "Materials Science and Engineering",

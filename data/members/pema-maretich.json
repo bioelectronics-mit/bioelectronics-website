@@ -1,7 +1,7 @@
 {
   "name": "Pema Maretich",
   "photo": "data/members/images/pema-maretich.jpg",
-  "role": "Graduate Student",
+  "role": "Postdoctoral Associate",
   "department": "MIT Biology",
   "email": "pema@mit.edu",
   "interests": [
@@ -10,6 +10,12 @@
     "Neuroendocrine Modulation"
   ],
   "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Biology",
+      "institution": "Massachusetts Institute of Technology",
+      "year": 2026
+    },
     {
       "degree": "B.A.",
       "field": "Molecular and Cell Biology & Spanish",

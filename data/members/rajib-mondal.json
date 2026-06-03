@@ -1,7 +1,7 @@
 {
   "name": "Rajib Mondal",
   "photo": "data/members/images/rajib-mondal.jpg",
-  "role": "Graduate Student",
+  "role": "Postdoctoral Associate",
   "department": "Harvard-MIT Health Sciences and Technology",
   "email": "rmondal@mit.edu",
   "interests": [
@@ -10,6 +10,12 @@
     "Neuro-immunology"
   ],
   "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Medical Engineering and Medical Physics",
+      "institution": "Massachusetts Institute of Technology",
+      "year": 2026
+    },
     {
       "degree": "M.Sc.",
       "field": "Electrical Engineering & Information Technology",
