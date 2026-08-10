@@ -148,6 +148,13 @@
   },
   {
     "type": "Graduate Student",
+    "name": "Keisuke Nagao",
+    "currentPosition": "Postdoctoral Researcher, University of Washington",
+    "note": "Ph.D. DMSE (2020-2026)",
+    "yearLeft": 2026
+  },
+  {
+    "type": "Graduate Student",
     "name": "Ye Ji Kim",
     "currentPosition": "Postdoctoral Researcher, Gradinaru Lab, Caltech",
     "note": "Ph.D. DMSE (2021-2025)",
