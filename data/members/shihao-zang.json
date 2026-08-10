@@ -1,0 +1,33 @@
+{
+  "name": "Shihao Zang",
+  "photo": "data/members/images/shihao-zang.jpg",
+  "role": "Postdoctoral Associate",
+  "scholar": "https://scholar.google.com/citations?user=m-UNGjYAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/shihao-zang-564394190/",
+  "interests": [
+    "Magnetic Nanoparticles",
+    "Neuromodulation",
+    "Targeted Delivery"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Chemistry",
+      "institution": "New York University",
+      "year": 2026
+    },
+    {
+      "degree": "B.S.",
+      "field": "Chemistry",
+      "institution": "Peking University",
+      "year": 2019
+    },
+    {
+      "degree": "B.S.",
+      "field": "Economics",
+      "institution": "Peking University",
+      "year": 2019
+    }
+  ],
+  "bio": "Shihao received dual B.S. degrees in Chemistry and Economics from Peking University in 2019. He earned his Ph.D. in Chemistry from New York University in 2026 under the mentorship of Prof. Stefano Sacanna. His doctoral research focused on engineering and directly visualizing ionic colloidal crystallization. He developed the “Crystal Clear” platform, a system of low-refractive-index fluorinated colloids that enables three-dimensional, single-particle-level visualization of binary colloidal crystals using confocal microscopy. With this platform, he directly observed two-step nonclassical nucleation and other crystal-growth dynamics in ionic colloidal systems. By systematically engineering the crystallization conditions, he also discovered a previously unreported open-framework colloidal crystal with no known natural analogue, now called “Zangenite.” Shihao is excited to bring his expertise in colloidal synthesis, surface chemistry and microscopy to the Bioelectronics Group, where he will develop magnetoelectric nanomaterials for remote, minimally invasive neuromodulation. Outside the lab, Shihao enjoys running, swimming, cycling, skiing, and reading novels."
+}
