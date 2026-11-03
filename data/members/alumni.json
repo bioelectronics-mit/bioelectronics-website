@@ -1,6 +1,13 @@
 [
   {
     "type": "Postdoctoral",
+    "name": "Jacob Beckham",
+    "currentPosition": "Assistant Professor, Georgia Institute of Technology",
+    "note": "2023–2026",
+    "yearLeft": 2026
+  },
+  {
+    "type": "Postdoctoral",
     "name": "Taylor Cannon",
     "currentPosition": "Assistant Professor, University of Minnesota",
     "note": "2023–2026",
@@ -152,6 +159,13 @@
     "currentPosition": "Assistant Professor, Virginia Tech",
     "note": "2011–2015",
     "yearLeft": 2015
+  },
+  {
+    "type": "Graduate Student",
+    "name": "Rajib Mondal",
+    "currentPosition": null,
+    "note": "Ph.D. HST (2020-2026)",
+    "yearLeft": 2026
   },
   {
     "type": "Graduate Student",
