@@ -131,7 +131,7 @@
 
       // Photo
       const photo = member.photo
-        ? `<div class="pic" style="max-width:280px;margin-bottom:20px;">
+        ? `<div class="pic" style="width:280px;max-width:100%;margin-bottom:20px;">
              <img src="${member.photo}" class="img-fluid" alt="${member.name}"
                   onerror="this.parentElement.style.display='none'">
            </div>`
@@ -184,9 +184,9 @@
         : '';
 
       document.getElementById('member-content').innerHTML = `
-        <div class="row no-gutters">
-          <div class="col-md-4" data-aos="fade-up">${photo}</div>
-          <div class="col-md-8" data-aos="fade-up" data-aos-delay="100" style="padding: 0 20px;">
+        <div class="row gx-4">
+          <div class="col-md-auto" data-aos="fade-up">${photo}</div>
+          <div class="col-md" data-aos="fade-up" data-aos-delay="100">
             <h4 style="margin-bottom:4px;">${role}</h4>
             ${dept}
             ${emailHTML}
