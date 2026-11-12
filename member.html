@@ -160,8 +160,12 @@
         : '';
 
       const bioPhotoHTML = member.bioPhoto
-        ? `<img src="${member.bioPhoto.src}" alt="${member.bioPhoto.alt}" class="img-fluid rounded mb-3"
-                width="${member.bioPhoto.width}" height="${member.bioPhoto.height}">`
+        ? `<div class="row justify-content-center mt-5">
+             <div class="col-lg-8 text-center">
+               <img src="${member.bioPhoto.src}" alt="${member.bioPhoto.alt}" class="img-fluid rounded"
+                    width="${member.bioPhoto.width}" height="${member.bioPhoto.height}">
+             </div>
+           </div>`
         : '';
 
       // Email
@@ -190,9 +194,9 @@
             ${interestsHTML}
             ${eduHTML}
             ${bioHTML}
-            ${bioPhotoHTML}
           </div>
-        </div>`;
+        </div>
+        ${bioPhotoHTML}`;
 
       if (typeof AOS !== 'undefined') AOS.refresh();
     }
