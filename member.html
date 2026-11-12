@@ -159,6 +159,11 @@
         ? `<h5 style="margin-top:24px;margin-bottom:8px;">Biography</h5><p>${member.bio}</p>`
         : '';
 
+      const bioPhotoHTML = member.bioPhoto
+        ? `<img src="${member.bioPhoto.src}" alt="${member.bioPhoto.alt}" class="img-fluid rounded mb-3"
+                width="${member.bioPhoto.width}" height="${member.bioPhoto.height}">`
+        : '';
+
       // Email
       const emailHTML = member.email
         ? `<p style="margin-top:16px;"><i class="bi bi-envelope"></i> <a href="mailto:${member.email}">${member.email}</a></p>`
@@ -185,6 +190,7 @@
             ${interestsHTML}
             ${eduHTML}
             ${bioHTML}
+            ${bioPhotoHTML}
           </div>
         </div>`;
 
