@@ -1,0 +1,21 @@
+{
+  "name": "Everett Tolbert-Schwartz",
+  "photo": "data/members/images/everett-tolbert-schwartz.jpg",
+  "role": "Graduate Student",
+  "department": "DMSE / PPSM",
+  "interests": [
+    "Stretchable electronics",
+    "polymer-inorganic composites",
+    "closed-loop modulation"
+  ],
+  "education": [
+    {
+      "degree": "B.S.",
+      "field": "Chemistry and Applied Physics",
+      "institution": "Yale University",
+      "year": 2026
+    }
+  ],
+  "bio": "Everett completed his B.S. in Chemistry and Applied Physics at Yale, concentrating in biophysics and materials chemistry. His undergraduate research under Prof. Mark Saltzman focused on the development and mathematical modeling of drug-eluting implants with very long delivery timescales. As a part of DMSE/PPSM at MIT, Everett's research now focuses on developing highly stretchable layered polymer/metal composites for soft organic bioelectronic sensing, and using synthetic chemistry techniques to enable high-resolution photopatterning of the composites. Outside of research, Everett loves singing and musical theater, glassblowing, sailing, and science fiction!",
+  "linkedin": "https://www.linkedin.com/in/everett-tolbert-schwartz-8666b0266/"
+}
